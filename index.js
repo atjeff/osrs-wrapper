@@ -1,6 +1,10 @@
 "use strict";
-const ge = require('./lib/api/ge');
+const GrandExchange = require('./lib/api/ge');
 const request = require('request');
+let ge = new GrandExchange(1);
 
-let findItem = new ge(1);
-findItem.itemInfo("Cannonball");
+
+ge.itemInfo("Cabbage")
+    .then((item) => {
+        console.log(item);
+    });
