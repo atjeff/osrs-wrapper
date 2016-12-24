@@ -39,7 +39,7 @@ Again, but with Hardcore Ironman Hiscores
 ```javascript
 const osrs = require("osrs-wrapper");
 
-osrs.hiscores.getPlayer("Buy Tayrocs, "Hardcore")
+osrs.hiscores.getPlayer("Buy Tayrocs", "Hardcore")
     .then((player) => {
         console.log(JSON.stringify(player, null, 2));
     });
