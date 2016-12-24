@@ -1,13 +1,13 @@
 {
-  "name": "osrs-wrapper",
+  "name": "Osrs-Wrapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple wrapper around the Old School Runescape API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Old-School Runescape", "OSRS", "Wrapper"],
+  "author": "atJeff",
   "license": "ISC",
   "dependencies": {
     "promise": "^7.1.1",
