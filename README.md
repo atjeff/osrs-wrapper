@@ -1,5 +1,4 @@
 # Osrs-Wrapper
-------
 Simple wrapper around the [Old School Runescape](http://oldschool.runescape.com/) API
 
 ### Dependencies
@@ -12,7 +11,6 @@ $ npm install --save osrs-wrapper
 ```
 
 ## Usage
-------
 
 This wrapper interacts with the following Old-School APIs:
 * Hiscores

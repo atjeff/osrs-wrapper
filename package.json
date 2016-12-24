@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Old-School Runescape", "OSRS", "Wrapper"],
+  "keywords": ["Old-School Runescape", "OSRS", "API"],
   "author": "atJeff",
   "license": "MIT",
   "repository": {
