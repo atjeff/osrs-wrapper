@@ -31,7 +31,7 @@ An example of getting a player's hiscore data:
 const osrs = require("osrs-wrapper");
 
 osrs.hiscores.getPlayer("Macca P")
-    .then((player) => {
+    .then(player => {
         console.log(JSON.stringify(player, null, 2));
     });
 ```
@@ -40,7 +40,7 @@ Again, but with Hardcore Ironman Hiscores
 const osrs = require("osrs-wrapper");
 
 osrs.hiscores.getPlayer("Buy Tayrocs", "Hardcore")
-    .then((player) => {
+    .then(player => {
         console.log(JSON.stringify(player, null, 2));
     });
 ```
@@ -187,6 +187,34 @@ Output:
 }
 
 ```
+##### getPlayers(usernames, type)
+Used to lookup multiple players skills and minigame stats. 
+"usernames" Accepts:
+* Array of usernames:
+```json
+["King Bulvi", "Macca P"]
+```
+* Array of Objects:
+```json
+[{
+  "username": "King Bulvi" //type defaults to normal
+},{
+  "username": "Macca P",
+  "type": "normal"
+},
+{
+  "username": "Buy Tayrocs",
+  "type": "hardcore"
+}]
+```
+"type" Accepts:
+* Normal (Default)
+* Ironman
+* Hardcore Ironman
+* Ultimate Ironman
+* Deadman
+* Deadman Seasonal
+
 #### Grand Exchange
 ##### getItem(item)
 Used to lookup an item's price, category and price trend.
@@ -199,7 +227,7 @@ An example of getting an item's data by Item ID:
 const osrs = require("osrs-wrapper");
 
 osrs.ge.getItem(4151)
-    .then((item) => {
+    .then(item => {
         console.log(item);
     });
 ```
@@ -208,7 +236,7 @@ Again, but with the Item Name:
 const osrs = require("osrs-wrapper");
 
 osrs.ge.getItem("Abyssal Whip")
-    .then((item) => {
+    .then(item => {
         console.log(item);
     });
 ```
@@ -258,7 +286,7 @@ An example of getting an item's data by Item ID:
 const osrs = require("osrs-wrapper");
 
 osrs.ge.getGraph(554)
-    .then((item) => {
+    .then(item => {
         console.log(item);
     });
 ```
@@ -267,7 +295,7 @@ Again, but with the Item Name:
 const osrs = require("osrs-wrapper");
 
 osrs.ge.getGraph("Fire Rune")
-    .then((item) => {
+    .then(item => {
         console.log(item);
     });
 ```
