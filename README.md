@@ -195,7 +195,7 @@ Used to lookup multiple players skills and minigame stats.
 ["King Bulvi", "Macca P"]
 ```
 * Array of Objects:
-```json
+```
 [{
   "username": "King Bulvi" //type defaults to normal
 },{
