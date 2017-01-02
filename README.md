@@ -300,5 +300,22 @@ osrs.ge.getGraph("Fire Rune")
     });
 ```
 
+##### getItems(items)
+Used to lookup an item's price, category and price trend.
+"items" Accepts:
+* Array of items (Item Name or ItemID):
+```json
+["Abyssal Whip", 2]
+```
+Example:
+```javascript
+const osrs = require("osrs-wrapper");
+
+osrs.ge.getItems(["Abyssal Whip", 2])
+    .then(items => {
+        console.log(JSON.parse(items));
+    });
+```
+
 ## License
 `osrs-wrapper` is under the [MIT](http://opensource.org/licenses/MIT) license, see the `LICENSE` file for the copyright information and licensing terms.
