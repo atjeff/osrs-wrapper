@@ -1,12 +1,16 @@
 {
   "name": "osrs-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple wrapper around the Old School Runescape API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Old-School Runescape", "OSRS", "API"],
+  "keywords": [
+    "Old-School Runescape",
+    "OSRS",
+    "API"
+  ],
   "author": "atJeff",
   "license": "MIT",
   "repository": {
