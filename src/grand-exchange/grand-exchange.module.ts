@@ -28,7 +28,7 @@ export async function getExchangeStats(itemId: number): Promise<Item> {
  * @returns {Promise<ExchangeGraph>}
  */
 export async function getExchangeTrendGraph(itemId: number): Promise<ExchangeGraph> {
-    const { data } = await request({
+    const { data } = await request<ExchangeGraph>({
         method: 'GET',
         url: `http://services.runescape.com/m=itemdb_oldschool/api/graph/${itemId}.json`
     });
