@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        /* Basic Options */
+        "target": "es5",
+        "module": "es2015",
+        "outDir": "./dist",
+        "lib": ["esnext"],
+        "declaration": true,
+        "allowJs": false,
+        "noEmitOnError": true,
+        "newLine": "lf",
+
+        /* Build Options */
+        "incremental": true,
+
+        /* Module Resolution Options */
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true
+    }
+}
