@@ -14,7 +14,8 @@ import { Bosses, Minigames, Player, Skills } from './player.model';
 export async function getHiscores(username: string, type: HiscoreTypes = HiscoreTypes.normal): Promise<Player> {
     const { data } = await request<string>({
         method: 'GET',
-        url: `http://services.runescape.com/m=${type}/index_lite.ws?player=${encodeURIComponent(username)}`
+        url: `http://services.runescape.com/m=${type}/index_lite.ws`,
+        params: { player: encodeURIComponent(username) }
     });
 
     const playerData = parseHiscoreCsv(data);

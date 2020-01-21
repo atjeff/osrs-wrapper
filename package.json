@@ -18,7 +18,8 @@
         "dev": "tsc --watch",
         "build": "tsc",
         "lint": "prettier --list-different 'src/**/*.ts'",
-        "format": "prettier --write 'src/**/*.ts'"
+        "format": "prettier --write 'src/**/*.ts'",
+        "test": "jest --runInBand"
     },
     "dependencies": {
         "gaxios": "^2.2.2"

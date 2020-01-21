@@ -13,7 +13,7 @@ export async function getExchangeStats(itemId: number): Promise<Item> {
         data: { item }
     } = await request<ItemDetailResponse>({
         method: 'GET',
-        url: `http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json`,
+        url: 'http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json',
         params: { item: itemId }
     });
 
