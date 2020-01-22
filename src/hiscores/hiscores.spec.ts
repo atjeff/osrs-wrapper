@@ -20,38 +20,26 @@ describe('Hiscores', () => {
         it('should make a GET request', async () => {
             await getHiscores(playerName);
 
-            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchObject({
-                method: 'GET'
-            });
+            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchSnapshot();
         });
 
         it('should make a request with the passed in player name', async () => {
             await getHiscores(playerName);
 
-            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchObject({
-                method: 'GET',
-                url: 'http://services.runescape.com/m=hiscore_oldschool/index_lite.ws',
-                params: {
-                    player: encodeURIComponent(playerName)
-                }
-            });
+            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchSnapshot();
         });
 
         it('should default type to HiscoreTypes.normal', async () => {
             await getHiscores(playerName);
 
-            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchObject({
-                url: `http://services.runescape.com/m=${HiscoreTypes.normal}/index_lite.ws`
-            });
+            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchSnapshot();
         });
 
         it('should hit the specified hiscore type endpoint', async () => {
             const hiscoreType = HiscoreTypes.league;
             await getHiscores(playerName, hiscoreType);
 
-            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchObject({
-                url: `http://services.runescape.com/m=${hiscoreType}/index_lite.ws`
-            });
+            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchSnapshot();
         });
 
         it('should properly parse rank, level, and xp for each skill', async () => {

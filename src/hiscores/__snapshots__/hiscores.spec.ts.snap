@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hiscores getHiscores should default type to HiscoreTypes.normal 1`] = `
+Object {
+  "method": "GET",
+  "params": Object {
+    "player": "Bald",
+  },
+  "url": "http://services.runescape.com/m=hiscore_oldschool/index_lite.ws",
+}
+`;
+
+exports[`Hiscores getHiscores should hit the specified hiscore type endpoint 1`] = `
+Object {
+  "method": "GET",
+  "params": Object {
+    "player": "Bald",
+  },
+  "url": "http://services.runescape.com/m=hiscore_oldschool_seasonal/index_lite.ws",
+}
+`;
+
+exports[`Hiscores getHiscores should make a GET request 1`] = `
+Object {
+  "method": "GET",
+  "params": Object {
+    "player": "Bald",
+  },
+  "url": "http://services.runescape.com/m=hiscore_oldschool/index_lite.ws",
+}
+`;
+
+exports[`Hiscores getHiscores should make a request with the passed in player name 1`] = `
+Object {
+  "method": "GET",
+  "params": Object {
+    "player": "Bald",
+  },
+  "url": "http://services.runescape.com/m=hiscore_oldschool/index_lite.ws",
+}
+`;

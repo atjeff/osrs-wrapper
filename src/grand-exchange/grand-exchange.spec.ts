@@ -18,21 +18,13 @@ describe('Grand Exchange', () => {
         it('should make a GET request', async () => {
             await getExchangeStats(itemId);
 
-            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchObject({
-                method: 'GET'
-            });
+            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchSnapshot();
         });
 
         it('should make a request with the passed in itemId', async () => {
             await getExchangeStats(itemId);
 
-            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchObject({
-                method: 'GET',
-                url: 'http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json',
-                params: {
-                    item: itemId
-                }
-            });
+            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchSnapshot();
         });
 
         it('should return the item key from the response', async () => {
@@ -46,18 +38,13 @@ describe('Grand Exchange', () => {
         it('should make a GET request', async () => {
             await getExchangeTrendGraph(itemId);
 
-            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchObject({
-                method: 'GET'
-            });
+            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchSnapshot();
         });
 
         it('should make a request with the passed in itemId', async () => {
             await getExchangeTrendGraph(itemId);
 
-            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchObject({
-                method: 'GET',
-                url: `http://services.runescape.com/m=itemdb_oldschool/api/graph/${itemId}.json`
-            });
+            expect(mockedGaxiosRequest.mock.calls[0][0]).toMatchSnapshot();
         });
 
         it('should return the response', async () => {
