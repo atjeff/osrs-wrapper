@@ -18,7 +18,7 @@ This wrapper interacts with the following Old-School APIs:
 
 ### **getHiscores**
 ```ts
-import { getHiscores } from './osrs-wrapper/hiscores/hiscores.module';
+import { getHiscores } from 'osrs-wrapper';
 
 const stats = await getHiscores('Bald')
 // { Overall: { rank: '94441', level: '1969', xp: '93090113' }, Attack: { rank: '226496', level: '91', xp: '6226771' } ... }
@@ -26,7 +26,7 @@ const stats = await getHiscores('Bald')
 
 ### **getExchangeStats**
 ```ts
-import { getExchangeStats } from './osrs-wrapper/grand-exchange/grand-exchange.module';
+import { getExchangeStats } from 'osrs-wrapper';
 
 const itemStats = await getExchangeStats(4151);
 // { id: 4151, name: 'Abyssal whip', description: 'A weapon from the abyss.', current: {  trend: 'neutral', price: '2.7m' } ... }
@@ -34,7 +34,7 @@ const itemStats = await getExchangeStats(4151);
 
 ### **getExchangeTrendGraph**
 ```ts
-import { getExchangeTrendGraph } from './osrs-wrapper/grand-exchange/grand-exchange.module';
+import { getExchangeTrendGraph } from 'osrs-wrapper';
 
 const itemGraph = await getExchangeTrendGraph(4151);
 // { daily: { '1564099200000': 2534129, ... } average: { '1564099200000': 2564308, ... } }
