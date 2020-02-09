@@ -1,6 +1,5 @@
 import { request } from 'gaxios';
 import { mockHiscoreCsv } from '../../test/hiscore-csv.mock';
-import { mockBossHiscores, mockMinigameHiscores, mockSkillHiscores } from '../../test/parsed-hiscores.mock';
 import { HiscoreTypes } from './hiscore-types.enum';
 import { getHiscores } from './hiscores.module';
 
@@ -45,29 +44,25 @@ describe('Hiscores', () => {
         it('should properly parse rank, level, and xp for each skill', async () => {
             const { skills } = await getHiscores(playerName);
 
-            expect(skills).toEqual(mockSkillHiscores);
+            expect(skills).toMatchSnapshot();
         });
 
         it('should properly parse rank and score for each minigame', async () => {
             const { minigames } = await getHiscores(playerName);
 
-            expect(minigames).toEqual(mockMinigameHiscores);
+            expect(minigames).toMatchSnapshot();
         });
 
         it('should properly parse rank and kills for each boss', async () => {
             const { bosses } = await getHiscores(playerName);
 
-            expect(bosses).toEqual(mockBossHiscores);
+            expect(bosses).toMatchSnapshot();
         });
 
         it('should return skills, minigames, and bosses from a csv', async () => {
             const output = await getHiscores(playerName);
 
-            expect(output).toEqual({
-                skills: mockSkillHiscores,
-                minigames: mockMinigameHiscores,
-                bosses: mockBossHiscores
-            });
+            expect(output).toMatchSnapshot();
         });
     });
 });

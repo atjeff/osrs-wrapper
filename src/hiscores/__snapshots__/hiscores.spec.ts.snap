@@ -39,3 +39,701 @@ Object {
   "url": "http://services.runescape.com/m=hiscore_oldschool/index_lite.ws",
 }
 `;
+
+exports[`Hiscores getHiscores should properly parse rank and kills for each boss 1`] = `
+Object {
+  "abyssalSire": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "alchemicalHydra": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "barrowsChests": Object {
+    "kills": "93",
+    "rank": "137825",
+  },
+  "bryophyta": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "callisto": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "cerberus": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "chambersOfXeric": Object {
+    "kills": "8",
+    "rank": "81698",
+  },
+  "chambersOfXericChallengeMode": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "chaosElemental": Object {
+    "kills": "9",
+    "rank": "51821",
+  },
+  "chaosFanatic": Object {
+    "kills": "4",
+    "rank": "97353",
+  },
+  "commanderZilyana": Object {
+    "kills": "1",
+    "rank": "108296",
+  },
+  "corporealBeast": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "corruptedGauntlet": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "crazyArchaeologist": Object {
+    "kills": "4",
+    "rank": "110173",
+  },
+  "dagannothPrime": Object {
+    "kills": "2",
+    "rank": "141155",
+  },
+  "dagannothRex": Object {
+    "kills": "3",
+    "rank": "167860",
+  },
+  "dagannothSupreme": Object {
+    "kills": "1",
+    "rank": "153224",
+  },
+  "derangedArchaeologist": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "gauntlet": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "generalGraardor": Object {
+    "kills": "1",
+    "rank": "181465",
+  },
+  "giantMole": Object {
+    "kills": "5",
+    "rank": "121368",
+  },
+  "grotesqueGuardians": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "hespori": Object {
+    "kills": "21",
+    "rank": "61261",
+  },
+  "kalphiteQueen": Object {
+    "kills": "1",
+    "rank": "103772",
+  },
+  "kingBlackDragon": Object {
+    "kills": "15",
+    "rank": "205314",
+  },
+  "kraken": Object {
+    "kills": "503",
+    "rank": "95585",
+  },
+  "kreearra": Object {
+    "kills": "1",
+    "rank": "112163",
+  },
+  "krilTsutsaroth": Object {
+    "kills": "1",
+    "rank": "118970",
+  },
+  "mimic": Object {
+    "kills": "1",
+    "rank": "25764",
+  },
+  "obor": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "sarachnis": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "scorpia": Object {
+    "kills": "1",
+    "rank": "91663",
+  },
+  "skotizo": Object {
+    "kills": "26",
+    "rank": "44459",
+  },
+  "theatreOfBlood": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "thermonuclearSmokeDevil": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "tzKalZuk": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "tzTokJad": Object {
+    "kills": "1",
+    "rank": "120629",
+  },
+  "venenatis": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "vetion": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "vorkath": Object {
+    "kills": "83",
+    "rank": "101202",
+  },
+  "wintertodt": Object {
+    "kills": "200",
+    "rank": "101242",
+  },
+  "zalcano": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "zulrah": Object {
+    "kills": "2",
+    "rank": "141048",
+  },
+}
+`;
+
+exports[`Hiscores getHiscores should properly parse rank and score for each minigame 1`] = `
+Object {
+  "bountyHunter": Object {
+    "rank": "-1",
+    "score": "-1",
+  },
+  "bountyHunterRogues": Object {
+    "rank": "-1",
+    "score": "-1",
+  },
+  "clueScrollsAll": Object {
+    "rank": "73277",
+    "score": "264",
+  },
+  "clueScrollsBeginner": Object {
+    "rank": "277185",
+    "score": "2",
+  },
+  "clueScrollsEasy": Object {
+    "rank": "110651",
+    "score": "20",
+  },
+  "clueScrollsElite": Object {
+    "rank": "85479",
+    "score": "14",
+  },
+  "clueScrollsHard": Object {
+    "rank": "47542",
+    "score": "174",
+  },
+  "clueScrollsMaster": Object {
+    "rank": "25868",
+    "score": "18",
+  },
+  "clueScrollsMedium": Object {
+    "rank": "129871",
+    "score": "36",
+  },
+  "leaguePoints": Object {
+    "rank": "-1",
+    "score": "-1",
+  },
+  "lms": Object {
+    "rank": "-1",
+    "score": "-1",
+  },
+}
+`;
+
+exports[`Hiscores getHiscores should properly parse rank, level, and xp for each skill 1`] = `
+Object {
+  "agility": Object {
+    "level": "77",
+    "rank": "134614",
+    "xp": "1571786",
+  },
+  "attack": Object {
+    "level": "91",
+    "rank": "226496",
+    "xp": "6226771",
+  },
+  "construction": Object {
+    "level": "82",
+    "rank": "181770",
+    "xp": "2433023",
+  },
+  "cooking": Object {
+    "level": "89",
+    "rank": "221971",
+    "xp": "4842612",
+  },
+  "crafting": Object {
+    "level": "87",
+    "rank": "84938",
+    "xp": "3982850",
+  },
+  "defence": Object {
+    "level": "91",
+    "rank": "195503",
+    "xp": "6217966",
+  },
+  "farming": Object {
+    "level": "88",
+    "rank": "117539",
+    "xp": "4745686",
+  },
+  "firemaking": Object {
+    "level": "88",
+    "rank": "159909",
+    "xp": "4713967",
+  },
+  "fishing": Object {
+    "level": "91",
+    "rank": "83191",
+    "xp": "6108453",
+  },
+  "fletching": Object {
+    "level": "80",
+    "rank": "327430",
+    "xp": "1987463",
+  },
+  "herblore": Object {
+    "level": "85",
+    "rank": "98140",
+    "xp": "3258991",
+  },
+  "hitpoints": Object {
+    "level": "95",
+    "rank": "293504",
+    "xp": "9011022",
+  },
+  "hunter": Object {
+    "level": "78",
+    "rank": "149351",
+    "xp": "1635709",
+  },
+  "magic": Object {
+    "level": "87",
+    "rank": "386369",
+    "xp": "4272408",
+  },
+  "mining": Object {
+    "level": "80",
+    "rank": "140303",
+    "xp": "2045434",
+  },
+  "overall": Object {
+    "level": "1969",
+    "rank": "94441",
+    "xp": "93090113",
+  },
+  "prayer": Object {
+    "level": "80",
+    "rank": "146955",
+    "xp": "1995170",
+  },
+  "ranged": Object {
+    "level": "86",
+    "rank": "478259",
+    "xp": "3793084",
+  },
+  "runecrafting": Object {
+    "level": "79",
+    "rank": "71125",
+    "xp": "1860280",
+  },
+  "slayer": Object {
+    "level": "90",
+    "rank": "150954",
+    "xp": "5586371",
+  },
+  "smithing": Object {
+    "level": "84",
+    "rank": "95446",
+    "xp": "2951619",
+  },
+  "strength": Object {
+    "level": "93",
+    "rank": "339635",
+    "xp": "7470704",
+  },
+  "thieving": Object {
+    "level": "81",
+    "rank": "112981",
+    "xp": "2199474",
+  },
+  "woodcutting": Object {
+    "level": "87",
+    "rank": "115549",
+    "xp": "4179270",
+  },
+}
+`;
+
+exports[`Hiscores getHiscores should return skills, minigames, and bosses from a csv 1`] = `
+Object {
+  "bosses": Object {
+    "abyssalSire": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "alchemicalHydra": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "barrowsChests": Object {
+      "kills": "93",
+      "rank": "137825",
+    },
+    "bryophyta": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "callisto": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "cerberus": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "chambersOfXeric": Object {
+      "kills": "8",
+      "rank": "81698",
+    },
+    "chambersOfXericChallengeMode": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "chaosElemental": Object {
+      "kills": "9",
+      "rank": "51821",
+    },
+    "chaosFanatic": Object {
+      "kills": "4",
+      "rank": "97353",
+    },
+    "commanderZilyana": Object {
+      "kills": "1",
+      "rank": "108296",
+    },
+    "corporealBeast": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "corruptedGauntlet": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "crazyArchaeologist": Object {
+      "kills": "4",
+      "rank": "110173",
+    },
+    "dagannothPrime": Object {
+      "kills": "2",
+      "rank": "141155",
+    },
+    "dagannothRex": Object {
+      "kills": "3",
+      "rank": "167860",
+    },
+    "dagannothSupreme": Object {
+      "kills": "1",
+      "rank": "153224",
+    },
+    "derangedArchaeologist": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "gauntlet": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "generalGraardor": Object {
+      "kills": "1",
+      "rank": "181465",
+    },
+    "giantMole": Object {
+      "kills": "5",
+      "rank": "121368",
+    },
+    "grotesqueGuardians": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "hespori": Object {
+      "kills": "21",
+      "rank": "61261",
+    },
+    "kalphiteQueen": Object {
+      "kills": "1",
+      "rank": "103772",
+    },
+    "kingBlackDragon": Object {
+      "kills": "15",
+      "rank": "205314",
+    },
+    "kraken": Object {
+      "kills": "503",
+      "rank": "95585",
+    },
+    "kreearra": Object {
+      "kills": "1",
+      "rank": "112163",
+    },
+    "krilTsutsaroth": Object {
+      "kills": "1",
+      "rank": "118970",
+    },
+    "mimic": Object {
+      "kills": "1",
+      "rank": "25764",
+    },
+    "obor": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "sarachnis": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "scorpia": Object {
+      "kills": "1",
+      "rank": "91663",
+    },
+    "skotizo": Object {
+      "kills": "26",
+      "rank": "44459",
+    },
+    "theatreOfBlood": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "thermonuclearSmokeDevil": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "tzKalZuk": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "tzTokJad": Object {
+      "kills": "1",
+      "rank": "120629",
+    },
+    "venenatis": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "vetion": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "vorkath": Object {
+      "kills": "83",
+      "rank": "101202",
+    },
+    "wintertodt": Object {
+      "kills": "200",
+      "rank": "101242",
+    },
+    "zalcano": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "zulrah": Object {
+      "kills": "2",
+      "rank": "141048",
+    },
+  },
+  "minigames": Object {
+    "bountyHunter": Object {
+      "rank": "-1",
+      "score": "-1",
+    },
+    "bountyHunterRogues": Object {
+      "rank": "-1",
+      "score": "-1",
+    },
+    "clueScrollsAll": Object {
+      "rank": "73277",
+      "score": "264",
+    },
+    "clueScrollsBeginner": Object {
+      "rank": "277185",
+      "score": "2",
+    },
+    "clueScrollsEasy": Object {
+      "rank": "110651",
+      "score": "20",
+    },
+    "clueScrollsElite": Object {
+      "rank": "85479",
+      "score": "14",
+    },
+    "clueScrollsHard": Object {
+      "rank": "47542",
+      "score": "174",
+    },
+    "clueScrollsMaster": Object {
+      "rank": "25868",
+      "score": "18",
+    },
+    "clueScrollsMedium": Object {
+      "rank": "129871",
+      "score": "36",
+    },
+    "leaguePoints": Object {
+      "rank": "-1",
+      "score": "-1",
+    },
+    "lms": Object {
+      "rank": "-1",
+      "score": "-1",
+    },
+  },
+  "skills": Object {
+    "agility": Object {
+      "level": "77",
+      "rank": "134614",
+      "xp": "1571786",
+    },
+    "attack": Object {
+      "level": "91",
+      "rank": "226496",
+      "xp": "6226771",
+    },
+    "construction": Object {
+      "level": "82",
+      "rank": "181770",
+      "xp": "2433023",
+    },
+    "cooking": Object {
+      "level": "89",
+      "rank": "221971",
+      "xp": "4842612",
+    },
+    "crafting": Object {
+      "level": "87",
+      "rank": "84938",
+      "xp": "3982850",
+    },
+    "defence": Object {
+      "level": "91",
+      "rank": "195503",
+      "xp": "6217966",
+    },
+    "farming": Object {
+      "level": "88",
+      "rank": "117539",
+      "xp": "4745686",
+    },
+    "firemaking": Object {
+      "level": "88",
+      "rank": "159909",
+      "xp": "4713967",
+    },
+    "fishing": Object {
+      "level": "91",
+      "rank": "83191",
+      "xp": "6108453",
+    },
+    "fletching": Object {
+      "level": "80",
+      "rank": "327430",
+      "xp": "1987463",
+    },
+    "herblore": Object {
+      "level": "85",
+      "rank": "98140",
+      "xp": "3258991",
+    },
+    "hitpoints": Object {
+      "level": "95",
+      "rank": "293504",
+      "xp": "9011022",
+    },
+    "hunter": Object {
+      "level": "78",
+      "rank": "149351",
+      "xp": "1635709",
+    },
+    "magic": Object {
+      "level": "87",
+      "rank": "386369",
+      "xp": "4272408",
+    },
+    "mining": Object {
+      "level": "80",
+      "rank": "140303",
+      "xp": "2045434",
+    },
+    "overall": Object {
+      "level": "1969",
+      "rank": "94441",
+      "xp": "93090113",
+    },
+    "prayer": Object {
+      "level": "80",
+      "rank": "146955",
+      "xp": "1995170",
+    },
+    "ranged": Object {
+      "level": "86",
+      "rank": "478259",
+      "xp": "3793084",
+    },
+    "runecrafting": Object {
+      "level": "79",
+      "rank": "71125",
+      "xp": "1860280",
+    },
+    "slayer": Object {
+      "level": "90",
+      "rank": "150954",
+      "xp": "5586371",
+    },
+    "smithing": Object {
+      "level": "84",
+      "rank": "95446",
+      "xp": "2951619",
+    },
+    "strength": Object {
+      "level": "93",
+      "rank": "339635",
+      "xp": "7470704",
+    },
+    "thieving": Object {
+      "level": "81",
+      "rank": "112981",
+      "xp": "2199474",
+    },
+    "woodcutting": Object {
+      "level": "87",
+      "rank": "115549",
+      "xp": "4179270",
+    },
+  },
+}
+`;

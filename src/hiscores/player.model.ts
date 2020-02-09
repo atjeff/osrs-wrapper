@@ -38,17 +38,17 @@ export interface Skill {
 }
 
 export interface Minigames {
-    League_Points: Minigame;
-    Bounty_Hunter: Minigame;
-    Bounty_Hunter_Rogues: Minigame;
-    Clue_Scrolls_All: Minigame;
-    Clue_Scrolls_Beginner: Minigame;
-    Clue_Scrolls_Easy: Minigame;
-    Clue_Scrolls_Medium: Minigame;
-    Clue_Scrolls_Hard: Minigame;
-    Clue_Scrolls_Elite: Minigame;
-    Clue_Scrolls_Master: Minigame;
-    LMS: Minigame;
+    leaguePoints: Minigame;
+    bountyHunter: Minigame;
+    bountyHunterRogues: Minigame;
+    clueScrollsAll: Minigame;
+    clueScrollsBeginner: Minigame;
+    clueScrollsEasy: Minigame;
+    clueScrollsMedium: Minigame;
+    clueScrollsHard: Minigame;
+    clueScrollsElite: Minigame;
+    clueScrollsMaster: Minigame;
+    lms: Minigame;
 }
 
 export interface Minigame {
@@ -57,49 +57,49 @@ export interface Minigame {
 }
 
 export interface Bosses {
-    Abyssal_Sire: Boss;
-    Alchemical_Hydra: Boss;
-    Barrows_Chests: Boss;
-    Bryophyta: Boss;
-    Callisto: Boss;
-    Cerberus: Boss;
-    Chambers_Of_Xeric: Boss;
-    Chambers_Of_Xeric_Challenge_Mode: Boss;
-    Chaos_Elemental: Boss;
-    Chaos_Fanatic: Boss;
-    Commander_Zilyana: Boss;
-    Corporeal_Beast: Boss;
-    Crazy_Archaeologist: Boss;
-    Dagannoth_Prime: Boss;
-    Dagannoth_Rex: Boss;
-    Dagannoth_Supreme: Boss;
-    Deranged_Archaeologist: Boss;
-    General_Graardor: Boss;
-    Giant_Mole: Boss;
-    Grotesque_Guardians: Boss;
-    Hespori: Boss;
-    Kalphite_Queen: Boss;
-    King_Black_Dragon: Boss;
-    Kraken: Boss;
-    Kreearra: Boss;
-    Kril_Tsutsaroth: Boss;
-    Mimic: Boss;
-    Obor: Boss;
-    Sarachnis: Boss;
-    Scorpia: Boss;
-    Skotizo: Boss;
-    Gauntlet: Boss;
-    Corrupted_Gauntlet: Boss;
-    Theatre_Of_Blood: Boss;
-    Thermonuclear_Smoke_Devil: Boss;
-    Tz_Kal_Zuk: Boss;
-    Tz_Tok_Jad: Boss;
-    Venenatis: Boss;
-    Vetion: Boss;
-    Vorkath: Boss;
-    Wintertodt: Boss;
-    Zalcano: Boss;
-    Zulrah: Boss;
+    abyssalSire: Boss;
+    alchemicalHydra: Boss;
+    barrowsChests: Boss;
+    bryophyta: Boss;
+    callisto: Boss;
+    cerberus: Boss;
+    chambersOfXeric: Boss;
+    chambersOfXericChallengeMode: Boss;
+    chaosElemental: Boss;
+    chaosFanatic: Boss;
+    commanderZilyana: Boss;
+    corporealBeast: Boss;
+    crazyArchaeologist: Boss;
+    dagannothPrime: Boss;
+    dagannothRex: Boss;
+    dagannothSupreme: Boss;
+    derangedArchaeologist: Boss;
+    generalGraardor: Boss;
+    giantMole: Boss;
+    grotesqueGuardians: Boss;
+    hespori: Boss;
+    kalphiteQueen: Boss;
+    kingBlackDragon: Boss;
+    kraken: Boss;
+    kreearra: Boss;
+    krilTsutsaroth: Boss;
+    mimic: Boss;
+    obor: Boss;
+    sarachnis: Boss;
+    scorpia: Boss;
+    skotizo: Boss;
+    gauntlet: Boss;
+    corruptedGauntlet: Boss;
+    theatreOfBlood: Boss;
+    thermonuclearSmokeDevil: Boss;
+    tzKalZuk: Boss;
+    tzTokJad: Boss;
+    venenatis: Boss;
+    vetion: Boss;
+    vorkath: Boss;
+    wintertodt: Boss;
+    zalcano: Boss;
+    zulrah: Boss;
 }
 
 export interface Boss {
