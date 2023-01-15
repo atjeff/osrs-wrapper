@@ -49,6 +49,9 @@ export interface Minigames {
     clueScrollsElite: Minigame;
     clueScrollsMaster: Minigame;
     lms: Minigame;
+    pvpArena: Minigame;
+    soulWarsZeal: Minigame;
+    riftsClosed: Minigame;
 }
 
 export interface Minigame {
@@ -84,14 +87,21 @@ export interface Bosses {
     kreearra: Boss;
     krilTsutsaroth: Boss;
     mimic: Boss;
+    nex: Boss;
+    nightmare: Boss;
+    phosanisNightmare: Boss;
     obor: Boss;
     sarachnis: Boss;
     scorpia: Boss;
     skotizo: Boss;
+    tempoross: Boss;
     gauntlet: Boss;
     corruptedGauntlet: Boss;
     theatreOfBlood: Boss;
+    theatreOfBloodHardMode: Boss;
     thermonuclearSmokeDevil: Boss;
+    tombsOfAmascut: Boss;
+    tombsOfAmascutExpertMode: Boss;
     tzKalZuk: Boss;
     tzTokJad: Boss;
     venenatis: Boss;

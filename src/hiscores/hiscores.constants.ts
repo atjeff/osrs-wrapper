@@ -36,7 +36,10 @@ export const MINIGAME_NAMES = [
     'clueScrollsHard',
     'clueScrollsElite',
     'clueScrollsMaster',
-    'lms'
+    'lms',
+    'pvpArena',
+    'soulWarsZeal',
+    'riftsClosed',
 ];
 
 export const BOSS_NAMES = [
@@ -67,14 +70,21 @@ export const BOSS_NAMES = [
     'kreearra',
     'krilTsutsaroth',
     'mimic',
+    'nex',
+    'nightmare',
+    'phosanisNightmare',
     'obor',
     'sarachnis',
     'scorpia',
     'skotizo',
+    'tempoross',
     'gauntlet',
     'corruptedGauntlet',
     'theatreOfBlood',
+    'theatreOfBloodHardMode',
     'thermonuclearSmokeDevil',
+    'tombsOfAmascut',
+    'tombsOfAmascutExpertMode',
     'tzKalZuk',
     'tzTokJad',
     'venenatis',
