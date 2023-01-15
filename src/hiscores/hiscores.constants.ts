@@ -74,6 +74,7 @@ export const BOSS_NAMES = [
     'nightmare',
     'phosanisNightmare',
     'obor',
+    'phantomMuspah',
     'sarachnis',
     'scorpia',
     'skotizo',

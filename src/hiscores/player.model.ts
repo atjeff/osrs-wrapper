@@ -91,6 +91,7 @@ export interface Bosses {
     nightmare: Boss;
     phosanisNightmare: Boss;
     obor: Boss;
+    phantomMuspah: Boss;
     sarachnis: Boss;
     scorpia: Boss;
     skotizo: Boss;
