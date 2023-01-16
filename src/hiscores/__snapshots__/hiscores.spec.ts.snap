@@ -91,8 +91,8 @@ Object {
     "rank": "131",
   },
   "corruptedGauntlet": Object {
-    "kills": "224",
-    "rank": "1946",
+    "kills": "207",
+    "rank": "42296",
   },
   "crazyArchaeologist": Object {
     "kills": "77",
@@ -115,8 +115,8 @@ Object {
     "rank": "17310",
   },
   "gauntlet": Object {
-    "kills": "226",
-    "rank": "32565",
+    "kills": "224",
+    "rank": "1946",
   },
   "generalGraardor": Object {
     "kills": "10540",
@@ -170,77 +170,81 @@ Object {
     "kills": "38",
     "rank": "18065",
   },
+  "phantomMuspah": Object {
+    "kills": "847",
+    "rank": "7",
+  },
   "phosanisNightmare": Object {
     "kills": "131",
     "rank": "9589",
   },
   "sarachnis": Object {
-    "kills": "847",
-    "rank": "7",
-  },
-  "scorpia": Object {
     "kills": "1179",
     "rank": "3914",
   },
-  "skotizo": Object {
+  "scorpia": Object {
     "kills": "10139",
     "rank": "8",
   },
-  "tempoross": Object {
+  "skotizo": Object {
     "kills": "65",
     "rank": "14891",
   },
-  "theatreOfBlood": Object {
-    "kills": "207",
-    "rank": "42296",
+  "tempoross": Object {
+    "kills": "226",
+    "rank": "32565",
   },
-  "theatreOfBloodHardMode": Object {
+  "theatreOfBlood": Object {
     "kills": "4940",
     "rank": "79",
   },
-  "thermonuclearSmokeDevil": Object {
+  "theatreOfBloodHardMode": Object {
     "kills": "221",
     "rank": "2301",
   },
-  "tombsOfAmascut": Object {
+  "thermonuclearSmokeDevil": Object {
     "kills": "2165",
     "rank": "11980",
   },
-  "tombsOfAmascutExpertMode": Object {
+  "tombsOfAmascut": Object {
     "kills": "222",
     "rank": "3258",
   },
-  "tzKalZuk": Object {
+  "tombsOfAmascutExpertMode": Object {
     "kills": "2015",
     "rank": "1",
   },
-  "tzTokJad": Object {
+  "tzKalZuk": Object {
     "kills": "55",
     "rank": "312",
   },
-  "venenatis": Object {
+  "tzTokJad": Object {
     "kills": "94",
     "rank": "838",
   },
-  "vetion": Object {
+  "venenatis": Object {
     "kills": "1226",
     "rank": "3984",
   },
-  "vorkath": Object {
+  "vetion": Object {
     "kills": "641",
     "rank": "2397",
   },
-  "wintertodt": Object {
+  "vorkath": Object {
     "kills": "1410",
     "rank": "31217",
   },
-  "zalcano": Object {
+  "wintertodt": Object {
     "kills": "4832",
     "rank": "507",
   },
-  "zulrah": Object {
+  "zalcano": Object {
     "kills": "1302",
     "rank": "2262",
+  },
+  "zulrah": Object {
+    "kills": "11026",
+    "rank": "1606",
   },
 }
 `;
@@ -483,8 +487,8 @@ Object {
       "rank": "131",
     },
     "corruptedGauntlet": Object {
-      "kills": "224",
-      "rank": "1946",
+      "kills": "207",
+      "rank": "42296",
     },
     "crazyArchaeologist": Object {
       "kills": "77",
@@ -507,8 +511,8 @@ Object {
       "rank": "17310",
     },
     "gauntlet": Object {
-      "kills": "226",
-      "rank": "32565",
+      "kills": "224",
+      "rank": "1946",
     },
     "generalGraardor": Object {
       "kills": "10540",
@@ -562,77 +566,81 @@ Object {
       "kills": "38",
       "rank": "18065",
     },
+    "phantomMuspah": Object {
+      "kills": "847",
+      "rank": "7",
+    },
     "phosanisNightmare": Object {
       "kills": "131",
       "rank": "9589",
     },
     "sarachnis": Object {
-      "kills": "847",
-      "rank": "7",
-    },
-    "scorpia": Object {
       "kills": "1179",
       "rank": "3914",
     },
-    "skotizo": Object {
+    "scorpia": Object {
       "kills": "10139",
       "rank": "8",
     },
-    "tempoross": Object {
+    "skotizo": Object {
       "kills": "65",
       "rank": "14891",
     },
-    "theatreOfBlood": Object {
-      "kills": "207",
-      "rank": "42296",
+    "tempoross": Object {
+      "kills": "226",
+      "rank": "32565",
     },
-    "theatreOfBloodHardMode": Object {
+    "theatreOfBlood": Object {
       "kills": "4940",
       "rank": "79",
     },
-    "thermonuclearSmokeDevil": Object {
+    "theatreOfBloodHardMode": Object {
       "kills": "221",
       "rank": "2301",
     },
-    "tombsOfAmascut": Object {
+    "thermonuclearSmokeDevil": Object {
       "kills": "2165",
       "rank": "11980",
     },
-    "tombsOfAmascutExpertMode": Object {
+    "tombsOfAmascut": Object {
       "kills": "222",
       "rank": "3258",
     },
-    "tzKalZuk": Object {
+    "tombsOfAmascutExpertMode": Object {
       "kills": "2015",
       "rank": "1",
     },
-    "tzTokJad": Object {
+    "tzKalZuk": Object {
       "kills": "55",
       "rank": "312",
     },
-    "venenatis": Object {
+    "tzTokJad": Object {
       "kills": "94",
       "rank": "838",
     },
-    "vetion": Object {
+    "venenatis": Object {
       "kills": "1226",
       "rank": "3984",
     },
-    "vorkath": Object {
+    "vetion": Object {
       "kills": "641",
       "rank": "2397",
     },
-    "wintertodt": Object {
+    "vorkath": Object {
       "kills": "1410",
       "rank": "31217",
     },
-    "zalcano": Object {
+    "wintertodt": Object {
       "kills": "4832",
       "rank": "507",
     },
-    "zulrah": Object {
+    "zalcano": Object {
       "kills": "1302",
       "rank": "2262",
+    },
+    "zulrah": Object {
+      "kills": "11026",
+      "rank": "1606",
     },
   },
   "minigames": Object {
