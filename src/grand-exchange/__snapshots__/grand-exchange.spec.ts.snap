@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Grand Exchange getExchangeStats should make a GET request 1`] = `
-Object {
+{
   "method": "GET",
-  "params": Object {
+  "params": {
     "item": 4151,
   },
   "url": "http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json",
@@ -11,9 +11,9 @@ Object {
 `;
 
 exports[`Grand Exchange getExchangeStats should make a request with the passed in itemId 1`] = `
-Object {
+{
   "method": "GET",
-  "params": Object {
+  "params": {
     "item": 4151,
   },
   "url": "http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json",
@@ -21,14 +21,14 @@ Object {
 `;
 
 exports[`Grand Exchange getExchangeTrendGraph should make a GET request 1`] = `
-Object {
+{
   "method": "GET",
   "url": "http://services.runescape.com/m=itemdb_oldschool/api/graph/4151.json",
 }
 `;
 
 exports[`Grand Exchange getExchangeTrendGraph should make a request with the passed in itemId 1`] = `
-Object {
+{
   "method": "GET",
   "url": "http://services.runescape.com/m=itemdb_oldschool/api/graph/4151.json",
 }

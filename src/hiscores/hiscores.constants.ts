@@ -22,7 +22,7 @@ export const SKILL_NAMES = [
     'farming',
     'runecrafting',
     'hunter',
-    'construction'
+    'construction',
 ];
 
 export const MINIGAME_NAMES = [
@@ -98,5 +98,5 @@ export const BOSS_NAMES = [
     'vorkath',
     'wintertodt',
     'zalcano',
-    'zulrah'
+    'zulrah',
 ];

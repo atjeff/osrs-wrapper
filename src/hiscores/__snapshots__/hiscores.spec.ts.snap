@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Hiscores getHiscores should default type to HiscoreTypes.normal 1`] = `
-Object {
+{
   "method": "GET",
-  "params": Object {
+  "params": {
     "player": "Bald",
   },
   "url": "http://services.runescape.com/m=hiscore_oldschool/index_lite.ws",
@@ -11,9 +11,9 @@ Object {
 `;
 
 exports[`Hiscores getHiscores should hit the specified hiscore type endpoint 1`] = `
-Object {
+{
   "method": "GET",
-  "params": Object {
+  "params": {
     "player": "Bald",
   },
   "url": "http://services.runescape.com/m=hiscore_oldschool_seasonal/index_lite.ws",
@@ -21,9 +21,9 @@ Object {
 `;
 
 exports[`Hiscores getHiscores should make a GET request 1`] = `
-Object {
+{
   "method": "GET",
-  "params": Object {
+  "params": {
     "player": "Bald",
   },
   "url": "http://services.runescape.com/m=hiscore_oldschool/index_lite.ws",
@@ -31,9 +31,9 @@ Object {
 `;
 
 exports[`Hiscores getHiscores should make a request with the passed in player name 1`] = `
-Object {
+{
   "method": "GET",
-  "params": Object {
+  "params": {
     "player": "Bald",
   },
   "url": "http://services.runescape.com/m=hiscore_oldschool/index_lite.ws",
@@ -41,220 +41,220 @@ Object {
 `;
 
 exports[`Hiscores getHiscores should properly parse rank and kills for each boss 1`] = `
-Object {
-  "abyssalSire": Object {
+{
+  "abyssalSire": {
     "kills": "378",
     "rank": "59731",
   },
-  "alchemicalHydra": Object {
+  "alchemicalHydra": {
     "kills": "-1",
     "rank": "-1",
   },
-  "artio": Object {
+  "artio": {
     "kills": "-1",
     "rank": "-1",
   },
-  "barrowsChests": Object {
+  "barrowsChests": {
     "kills": "394",
     "rank": "110649",
   },
-  "bryophyta": Object {
+  "bryophyta": {
     "kills": "-1",
     "rank": "-1",
   },
-  "callisto": Object {
+  "callisto": {
     "kills": "-1",
     "rank": "-1",
   },
-  "calvarion": Object {
+  "calvarion": {
     "kills": "-1",
     "rank": "-1",
   },
-  "cerberus": Object {
+  "cerberus": {
     "kills": "523",
     "rank": "94256",
   },
-  "chambersOfXeric": Object {
+  "chambersOfXeric": {
     "kills": "-1",
     "rank": "-1",
   },
-  "chambersOfXericChallengeMode": Object {
+  "chambersOfXericChallengeMode": {
     "kills": "-1",
     "rank": "-1",
   },
-  "chaosElemental": Object {
+  "chaosElemental": {
     "kills": "6",
     "rank": "160290",
   },
-  "chaosFanatic": Object {
+  "chaosFanatic": {
     "kills": "7",
     "rank": "191412",
   },
-  "commanderZilyana": Object {
+  "commanderZilyana": {
     "kills": "55",
     "rank": "131458",
   },
-  "corporealBeast": Object {
+  "corporealBeast": {
     "kills": "93",
     "rank": "69364",
   },
-  "corruptedGauntlet": Object {
+  "corruptedGauntlet": {
     "kills": "-1",
     "rank": "-1",
   },
-  "crazyArchaeologist": Object {
+  "crazyArchaeologist": {
     "kills": "-1",
     "rank": "-1",
   },
-  "dagannothPrime": Object {
+  "dagannothPrime": {
     "kills": "164",
     "rank": "129476",
   },
-  "dagannothRex": Object {
+  "dagannothRex": {
     "kills": "160",
     "rank": "197639",
   },
-  "dagannothSupreme": Object {
+  "dagannothSupreme": {
     "kills": "162",
     "rank": "131149",
   },
-  "derangedArchaeologist": Object {
+  "derangedArchaeologist": {
     "kills": "-1",
     "rank": "-1",
   },
-  "gauntlet": Object {
+  "gauntlet": {
     "kills": "-1",
     "rank": "-1",
   },
-  "generalGraardor": Object {
+  "generalGraardor": {
     "kills": "13",
     "rank": "320681",
   },
-  "giantMole": Object {
+  "giantMole": {
     "kills": "651",
     "rank": "43129",
   },
-  "grotesqueGuardians": Object {
+  "grotesqueGuardians": {
     "kills": "-1",
     "rank": "-1",
   },
-  "hespori": Object {
+  "hespori": {
     "kills": "20",
     "rank": "315446",
   },
-  "kalphiteQueen": Object {
+  "kalphiteQueen": {
     "kills": "32",
     "rank": "154287",
   },
-  "kingBlackDragon": Object {
+  "kingBlackDragon": {
     "kills": "180",
     "rank": "164470",
   },
-  "kraken": Object {
+  "kraken": {
     "kills": "33",
     "rank": "386137",
   },
-  "kreearra": Object {
+  "kreearra": {
     "kills": "-1",
     "rank": "-1",
   },
-  "krilTsutsaroth": Object {
+  "krilTsutsaroth": {
     "kills": "61",
     "rank": "119639",
   },
-  "mimic": Object {
+  "mimic": {
     "kills": "1",
     "rank": "98329",
   },
-  "nex": Object {
+  "nex": {
     "kills": "-1",
     "rank": "-1",
   },
-  "nightmare": Object {
+  "nightmare": {
     "kills": "11",
     "rank": "68866",
   },
-  "obor": Object {
+  "obor": {
     "kills": "-1",
     "rank": "-1",
   },
-  "phantomMuspah": Object {
+  "phantomMuspah": {
     "kills": "-1",
     "rank": "-1",
   },
-  "phosanisNightmare": Object {
+  "phosanisNightmare": {
     "kills": "-1",
     "rank": "-1",
   },
-  "sarachnis": Object {
+  "sarachnis": {
     "kills": "-1",
     "rank": "-1",
   },
-  "scorpia": Object {
+  "scorpia": {
     "kills": "-1",
     "rank": "-1",
   },
-  "skotizo": Object {
+  "skotizo": {
     "kills": "9",
     "rank": "340565",
   },
-  "spindel": Object {
+  "spindel": {
     "kills": "-1",
     "rank": "-1",
   },
-  "tempoross": Object {
+  "tempoross": {
     "kills": "-1",
     "rank": "-1",
   },
-  "theatreOfBlood": Object {
+  "theatreOfBlood": {
     "kills": "-1",
     "rank": "-1",
   },
-  "theatreOfBloodHardMode": Object {
+  "theatreOfBloodHardMode": {
     "kills": "-1",
     "rank": "-1",
   },
-  "thermonuclearSmokeDevil": Object {
+  "thermonuclearSmokeDevil": {
     "kills": "62",
     "rank": "185038",
   },
-  "tombsOfAmascut": Object {
+  "tombsOfAmascut": {
     "kills": "-1",
     "rank": "-1",
   },
-  "tombsOfAmascutExpertMode": Object {
+  "tombsOfAmascutExpertMode": {
     "kills": "-1",
     "rank": "-1",
   },
-  "tzKalZuk": Object {
+  "tzKalZuk": {
     "kills": "-1",
     "rank": "-1",
   },
-  "tzTokJad": Object {
+  "tzTokJad": {
     "kills": "6",
     "rank": "132805",
   },
-  "venenatis": Object {
+  "venenatis": {
     "kills": "191",
     "rank": "40139",
   },
-  "vetion": Object {
+  "vetion": {
     "kills": "-1",
     "rank": "-1",
   },
-  "vorkath": Object {
+  "vorkath": {
     "kills": "134",
     "rank": "289420",
   },
-  "wintertodt": Object {
+  "wintertodt": {
     "kills": "404",
     "rank": "236447",
   },
-  "zalcano": Object {
+  "zalcano": {
     "kills": "-1",
     "rank": "-1",
   },
-  "zulrah": Object {
+  "zulrah": {
     "kills": "690",
     "rank": "130143",
   },
@@ -262,68 +262,68 @@ Object {
 `;
 
 exports[`Hiscores getHiscores should properly parse rank and score for each minigame 1`] = `
-Object {
-  "bountyHunter": Object {
+{
+  "bountyHunter": {
     "rank": "-1",
     "score": "-1",
   },
-  "bountyHunterLegacy": Object {
+  "bountyHunterLegacy": {
     "rank": "166621",
     "score": "6",
   },
-  "bountyHunterRogues": Object {
+  "bountyHunterRogues": {
     "rank": "-1",
     "score": "-1",
   },
-  "bountyHunterRoguesLegacy": Object {
+  "bountyHunterRoguesLegacy": {
     "rank": "112087",
     "score": "6",
   },
-  "clueScrollsAll": Object {
+  "clueScrollsAll": {
     "rank": "39763",
     "score": "769",
   },
-  "clueScrollsBeginner": Object {
+  "clueScrollsBeginner": {
     "rank": "110824",
     "score": "27",
   },
-  "clueScrollsEasy": Object {
+  "clueScrollsEasy": {
     "rank": "72321",
     "score": "65",
   },
-  "clueScrollsElite": Object {
+  "clueScrollsElite": {
     "rank": "15368",
     "score": "118",
   },
-  "clueScrollsHard": Object {
+  "clueScrollsHard": {
     "rank": "11160",
     "score": "452",
   },
-  "clueScrollsMaster": Object {
+  "clueScrollsMaster": {
     "rank": "34024",
     "score": "51",
   },
-  "clueScrollsMedium": Object {
+  "clueScrollsMedium": {
     "rank": "196652",
     "score": "56",
   },
-  "leaguePoints": Object {
+  "leaguePoints": {
     "rank": "-1",
     "score": "-1",
   },
-  "lms": Object {
+  "lms": {
     "rank": "72844",
     "score": "713",
   },
-  "pvpArena": Object {
+  "pvpArena": {
     "rank": "-1",
     "score": "-1",
   },
-  "riftsClosed": Object {
+  "riftsClosed": {
     "rank": "153371",
     "score": "95",
   },
-  "soulWarsZeal": Object {
+  "soulWarsZeal": {
     "rank": "-1",
     "score": "-1",
   },
@@ -331,123 +331,123 @@ Object {
 `;
 
 exports[`Hiscores getHiscores should properly parse rank, level, and xp for each skill 1`] = `
-Object {
-  "agility": Object {
+{
+  "agility": {
     "level": "86",
     "rank": "149279",
     "xp": "3666341",
   },
-  "attack": Object {
+  "attack": {
     "level": "99",
     "rank": "64730",
     "xp": "20545561",
   },
-  "construction": Object {
+  "construction": {
     "level": "94",
     "rank": "80737",
     "xp": "8168839",
   },
-  "cooking": Object {
+  "cooking": {
     "level": "99",
     "rank": "58810",
     "xp": "14826963",
   },
-  "crafting": Object {
+  "crafting": {
     "level": "99",
     "rank": "73502",
     "xp": "13298684",
   },
-  "defence": Object {
+  "defence": {
     "level": "99",
     "rank": "41141",
     "xp": "19722694",
   },
-  "farming": Object {
+  "farming": {
     "level": "99",
     "rank": "166844",
     "xp": "13166060",
   },
-  "firemaking": Object {
+  "firemaking": {
     "level": "99",
     "rank": "53114",
     "xp": "14100677",
   },
-  "fishing": Object {
+  "fishing": {
     "level": "99",
     "rank": "106234",
     "xp": "13034820",
   },
-  "fletching": Object {
+  "fletching": {
     "level": "99",
     "rank": "45207",
     "xp": "13483788",
   },
-  "herblore": Object {
+  "herblore": {
     "level": "99",
     "rank": "37705",
     "xp": "13193941",
   },
-  "hitpoints": Object {
+  "hitpoints": {
     "level": "99",
     "rank": "122197",
     "xp": "28805913",
   },
-  "hunter": Object {
+  "hunter": {
     "level": "83",
     "rank": "231210",
     "xp": "2861287",
   },
-  "magic": Object {
+  "magic": {
     "level": "99",
     "rank": "68128",
     "xp": "19878940",
   },
-  "mining": Object {
+  "mining": {
     "level": "87",
     "rank": "189013",
     "xp": "4132348",
   },
-  "overall": Object {
+  "overall": {
     "level": "2200",
     "rank": "67661",
     "xp": "303540281",
   },
-  "prayer": Object {
+  "prayer": {
     "level": "99",
     "rank": "33714",
     "xp": "13165748",
   },
-  "ranged": Object {
+  "ranged": {
     "level": "99",
     "rank": "177458",
     "xp": "20358697",
   },
-  "runecrafting": Object {
+  "runecrafting": {
     "level": "86",
     "rank": "152593",
     "xp": "3601602",
   },
-  "slayer": Object {
+  "slayer": {
     "level": "99",
     "rank": "83237",
     "xp": "13923259",
   },
-  "smithing": Object {
+  "smithing": {
     "level": "89",
     "rank": "142873",
     "xp": "5179738",
   },
-  "strength": Object {
+  "strength": {
     "level": "99",
     "rank": "70139",
     "xp": "24974617",
   },
-  "thieving": Object {
+  "thieving": {
     "level": "91",
     "rank": "156270",
     "xp": "6414961",
   },
-  "woodcutting": Object {
+  "woodcutting": {
     "level": "99",
     "rank": "130463",
     "xp": "13034803",
@@ -456,408 +456,408 @@ Object {
 `;
 
 exports[`Hiscores getHiscores should return skills, minigames, and bosses from a csv 1`] = `
-Object {
-  "bosses": Object {
-    "abyssalSire": Object {
+{
+  "bosses": {
+    "abyssalSire": {
       "kills": "378",
       "rank": "59731",
     },
-    "alchemicalHydra": Object {
+    "alchemicalHydra": {
       "kills": "-1",
       "rank": "-1",
     },
-    "artio": Object {
+    "artio": {
       "kills": "-1",
       "rank": "-1",
     },
-    "barrowsChests": Object {
+    "barrowsChests": {
       "kills": "394",
       "rank": "110649",
     },
-    "bryophyta": Object {
+    "bryophyta": {
       "kills": "-1",
       "rank": "-1",
     },
-    "callisto": Object {
+    "callisto": {
       "kills": "-1",
       "rank": "-1",
     },
-    "calvarion": Object {
+    "calvarion": {
       "kills": "-1",
       "rank": "-1",
     },
-    "cerberus": Object {
+    "cerberus": {
       "kills": "523",
       "rank": "94256",
     },
-    "chambersOfXeric": Object {
+    "chambersOfXeric": {
       "kills": "-1",
       "rank": "-1",
     },
-    "chambersOfXericChallengeMode": Object {
+    "chambersOfXericChallengeMode": {
       "kills": "-1",
       "rank": "-1",
     },
-    "chaosElemental": Object {
+    "chaosElemental": {
       "kills": "6",
       "rank": "160290",
     },
-    "chaosFanatic": Object {
+    "chaosFanatic": {
       "kills": "7",
       "rank": "191412",
     },
-    "commanderZilyana": Object {
+    "commanderZilyana": {
       "kills": "55",
       "rank": "131458",
     },
-    "corporealBeast": Object {
+    "corporealBeast": {
       "kills": "93",
       "rank": "69364",
     },
-    "corruptedGauntlet": Object {
+    "corruptedGauntlet": {
       "kills": "-1",
       "rank": "-1",
     },
-    "crazyArchaeologist": Object {
+    "crazyArchaeologist": {
       "kills": "-1",
       "rank": "-1",
     },
-    "dagannothPrime": Object {
+    "dagannothPrime": {
       "kills": "164",
       "rank": "129476",
     },
-    "dagannothRex": Object {
+    "dagannothRex": {
       "kills": "160",
       "rank": "197639",
     },
-    "dagannothSupreme": Object {
+    "dagannothSupreme": {
       "kills": "162",
       "rank": "131149",
     },
-    "derangedArchaeologist": Object {
+    "derangedArchaeologist": {
       "kills": "-1",
       "rank": "-1",
     },
-    "gauntlet": Object {
+    "gauntlet": {
       "kills": "-1",
       "rank": "-1",
     },
-    "generalGraardor": Object {
+    "generalGraardor": {
       "kills": "13",
       "rank": "320681",
     },
-    "giantMole": Object {
+    "giantMole": {
       "kills": "651",
       "rank": "43129",
     },
-    "grotesqueGuardians": Object {
+    "grotesqueGuardians": {
       "kills": "-1",
       "rank": "-1",
     },
-    "hespori": Object {
+    "hespori": {
       "kills": "20",
       "rank": "315446",
     },
-    "kalphiteQueen": Object {
+    "kalphiteQueen": {
       "kills": "32",
       "rank": "154287",
     },
-    "kingBlackDragon": Object {
+    "kingBlackDragon": {
       "kills": "180",
       "rank": "164470",
     },
-    "kraken": Object {
+    "kraken": {
       "kills": "33",
       "rank": "386137",
     },
-    "kreearra": Object {
+    "kreearra": {
       "kills": "-1",
       "rank": "-1",
     },
-    "krilTsutsaroth": Object {
+    "krilTsutsaroth": {
       "kills": "61",
       "rank": "119639",
     },
-    "mimic": Object {
+    "mimic": {
       "kills": "1",
       "rank": "98329",
     },
-    "nex": Object {
+    "nex": {
       "kills": "-1",
       "rank": "-1",
     },
-    "nightmare": Object {
+    "nightmare": {
       "kills": "11",
       "rank": "68866",
     },
-    "obor": Object {
+    "obor": {
       "kills": "-1",
       "rank": "-1",
     },
-    "phantomMuspah": Object {
+    "phantomMuspah": {
       "kills": "-1",
       "rank": "-1",
     },
-    "phosanisNightmare": Object {
+    "phosanisNightmare": {
       "kills": "-1",
       "rank": "-1",
     },
-    "sarachnis": Object {
+    "sarachnis": {
       "kills": "-1",
       "rank": "-1",
     },
-    "scorpia": Object {
+    "scorpia": {
       "kills": "-1",
       "rank": "-1",
     },
-    "skotizo": Object {
+    "skotizo": {
       "kills": "9",
       "rank": "340565",
     },
-    "spindel": Object {
+    "spindel": {
       "kills": "-1",
       "rank": "-1",
     },
-    "tempoross": Object {
+    "tempoross": {
       "kills": "-1",
       "rank": "-1",
     },
-    "theatreOfBlood": Object {
+    "theatreOfBlood": {
       "kills": "-1",
       "rank": "-1",
     },
-    "theatreOfBloodHardMode": Object {
+    "theatreOfBloodHardMode": {
       "kills": "-1",
       "rank": "-1",
     },
-    "thermonuclearSmokeDevil": Object {
+    "thermonuclearSmokeDevil": {
       "kills": "62",
       "rank": "185038",
     },
-    "tombsOfAmascut": Object {
+    "tombsOfAmascut": {
       "kills": "-1",
       "rank": "-1",
     },
-    "tombsOfAmascutExpertMode": Object {
+    "tombsOfAmascutExpertMode": {
       "kills": "-1",
       "rank": "-1",
     },
-    "tzKalZuk": Object {
+    "tzKalZuk": {
       "kills": "-1",
       "rank": "-1",
     },
-    "tzTokJad": Object {
+    "tzTokJad": {
       "kills": "6",
       "rank": "132805",
     },
-    "venenatis": Object {
+    "venenatis": {
       "kills": "191",
       "rank": "40139",
     },
-    "vetion": Object {
+    "vetion": {
       "kills": "-1",
       "rank": "-1",
     },
-    "vorkath": Object {
+    "vorkath": {
       "kills": "134",
       "rank": "289420",
     },
-    "wintertodt": Object {
+    "wintertodt": {
       "kills": "404",
       "rank": "236447",
     },
-    "zalcano": Object {
+    "zalcano": {
       "kills": "-1",
       "rank": "-1",
     },
-    "zulrah": Object {
+    "zulrah": {
       "kills": "690",
       "rank": "130143",
     },
   },
-  "minigames": Object {
-    "bountyHunter": Object {
+  "minigames": {
+    "bountyHunter": {
       "rank": "-1",
       "score": "-1",
     },
-    "bountyHunterLegacy": Object {
+    "bountyHunterLegacy": {
       "rank": "166621",
       "score": "6",
     },
-    "bountyHunterRogues": Object {
+    "bountyHunterRogues": {
       "rank": "-1",
       "score": "-1",
     },
-    "bountyHunterRoguesLegacy": Object {
+    "bountyHunterRoguesLegacy": {
       "rank": "112087",
       "score": "6",
     },
-    "clueScrollsAll": Object {
+    "clueScrollsAll": {
       "rank": "39763",
       "score": "769",
     },
-    "clueScrollsBeginner": Object {
+    "clueScrollsBeginner": {
       "rank": "110824",
       "score": "27",
     },
-    "clueScrollsEasy": Object {
+    "clueScrollsEasy": {
       "rank": "72321",
       "score": "65",
     },
-    "clueScrollsElite": Object {
+    "clueScrollsElite": {
       "rank": "15368",
       "score": "118",
     },
-    "clueScrollsHard": Object {
+    "clueScrollsHard": {
       "rank": "11160",
       "score": "452",
     },
-    "clueScrollsMaster": Object {
+    "clueScrollsMaster": {
       "rank": "34024",
       "score": "51",
     },
-    "clueScrollsMedium": Object {
+    "clueScrollsMedium": {
       "rank": "196652",
       "score": "56",
     },
-    "leaguePoints": Object {
+    "leaguePoints": {
       "rank": "-1",
       "score": "-1",
     },
-    "lms": Object {
+    "lms": {
       "rank": "72844",
       "score": "713",
     },
-    "pvpArena": Object {
+    "pvpArena": {
       "rank": "-1",
       "score": "-1",
     },
-    "riftsClosed": Object {
+    "riftsClosed": {
       "rank": "153371",
       "score": "95",
     },
-    "soulWarsZeal": Object {
+    "soulWarsZeal": {
       "rank": "-1",
       "score": "-1",
     },
   },
-  "skills": Object {
-    "agility": Object {
+  "skills": {
+    "agility": {
       "level": "86",
       "rank": "149279",
       "xp": "3666341",
     },
-    "attack": Object {
+    "attack": {
       "level": "99",
       "rank": "64730",
       "xp": "20545561",
     },
-    "construction": Object {
+    "construction": {
       "level": "94",
       "rank": "80737",
       "xp": "8168839",
     },
-    "cooking": Object {
+    "cooking": {
       "level": "99",
       "rank": "58810",
       "xp": "14826963",
     },
-    "crafting": Object {
+    "crafting": {
       "level": "99",
       "rank": "73502",
       "xp": "13298684",
     },
-    "defence": Object {
+    "defence": {
       "level": "99",
       "rank": "41141",
       "xp": "19722694",
     },
-    "farming": Object {
+    "farming": {
       "level": "99",
       "rank": "166844",
       "xp": "13166060",
     },
-    "firemaking": Object {
+    "firemaking": {
       "level": "99",
       "rank": "53114",
       "xp": "14100677",
     },
-    "fishing": Object {
+    "fishing": {
       "level": "99",
       "rank": "106234",
       "xp": "13034820",
     },
-    "fletching": Object {
+    "fletching": {
       "level": "99",
       "rank": "45207",
       "xp": "13483788",
     },
-    "herblore": Object {
+    "herblore": {
       "level": "99",
       "rank": "37705",
       "xp": "13193941",
     },
-    "hitpoints": Object {
+    "hitpoints": {
       "level": "99",
       "rank": "122197",
       "xp": "28805913",
     },
-    "hunter": Object {
+    "hunter": {
       "level": "83",
       "rank": "231210",
       "xp": "2861287",
     },
-    "magic": Object {
+    "magic": {
       "level": "99",
       "rank": "68128",
       "xp": "19878940",
     },
-    "mining": Object {
+    "mining": {
       "level": "87",
       "rank": "189013",
       "xp": "4132348",
     },
-    "overall": Object {
+    "overall": {
       "level": "2200",
       "rank": "67661",
       "xp": "303540281",
     },
-    "prayer": Object {
+    "prayer": {
       "level": "99",
       "rank": "33714",
       "xp": "13165748",
     },
-    "ranged": Object {
+    "ranged": {
       "level": "99",
       "rank": "177458",
       "xp": "20358697",
     },
-    "runecrafting": Object {
+    "runecrafting": {
       "level": "86",
       "rank": "152593",
       "xp": "3601602",
     },
-    "slayer": Object {
+    "slayer": {
       "level": "99",
       "rank": "83237",
       "xp": "13923259",
     },
-    "smithing": Object {
+    "smithing": {
       "level": "89",
       "rank": "142873",
       "xp": "5179738",
     },
-    "strength": Object {
+    "strength": {
       "level": "99",
       "rank": "70139",
       "xp": "24974617",
     },
-    "thieving": Object {
+    "thieving": {
       "level": "91",
       "rank": "156270",
       "xp": "6414961",
     },
-    "woodcutting": Object {
+    "woodcutting": {
       "level": "99",
       "rank": "130463",
       "xp": "13034803",

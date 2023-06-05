@@ -10,11 +10,11 @@ import { ExchangeGraph, Item, ItemDetailResponse } from './item.model';
  */
 export async function getExchangeStats(itemId: number): Promise<Item> {
     const {
-        data: { item }
+        data: { item },
     } = await request<ItemDetailResponse>({
         method: 'GET',
         url: 'http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json',
-        params: { item: itemId }
+        params: { item: itemId },
     });
 
     return item;
@@ -30,7 +30,7 @@ export async function getExchangeStats(itemId: number): Promise<Item> {
 export async function getExchangeTrendGraph(itemId: number): Promise<ExchangeGraph> {
     const { data } = await request<ExchangeGraph>({
         method: 'GET',
-        url: `http://services.runescape.com/m=itemdb_oldschool/api/graph/${itemId}.json`
+        url: `http://services.runescape.com/m=itemdb_oldschool/api/graph/${itemId}.json`,
     });
 
     return data;

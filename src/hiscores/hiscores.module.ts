@@ -15,7 +15,7 @@ export async function getHiscores(username: string, type: HiscoreTypes = Hiscore
     const { data } = await request<string>({
         method: 'GET',
         url: `http://services.runescape.com/m=${type}/index_lite.ws`,
-        params: { player: encodeURIComponent(username) }
+        params: { player: encodeURIComponent(username) },
     });
 
     const playerData = parseHiscoreCsv(data);

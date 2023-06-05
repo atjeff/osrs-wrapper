@@ -4,5 +4,5 @@ export enum HiscoreTypes {
     'ultimate' = 'hiscore_oldschool_ultimate',
     'hardcore' = 'hiscore_oldschool_hardcore_ironman',
     'deadman' = 'hiscore_oldschool_deadman',
-    'league' = 'hiscore_oldschool_seasonal'
+    'league' = 'hiscore_oldschool_seasonal',
 }
