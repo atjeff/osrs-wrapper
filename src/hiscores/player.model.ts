@@ -41,6 +41,8 @@ export interface Minigames {
     leaguePoints: Minigame;
     bountyHunter: Minigame;
     bountyHunterRogues: Minigame;
+    bountyHunterLegacy: Minigame;
+    bountyHunterRoguesLegacy: Minigame;
     clueScrollsAll: Minigame;
     clueScrollsBeginner: Minigame;
     clueScrollsEasy: Minigame;
@@ -62,9 +64,11 @@ export interface Minigame {
 export interface Bosses {
     abyssalSire: Boss;
     alchemicalHydra: Boss;
+    artio: Boss;
     barrowsChests: Boss;
     bryophyta: Boss;
     callisto: Boss;
+    calvarion: Boss;
     cerberus: Boss;
     chambersOfXeric: Boss;
     chambersOfXericChallengeMode: Boss;
@@ -95,6 +99,7 @@ export interface Bosses {
     sarachnis: Boss;
     scorpia: Boss;
     skotizo: Boss;
+    spindel: Boss;
     tempoross: Boss;
     gauntlet: Boss;
     corruptedGauntlet: Boss;
