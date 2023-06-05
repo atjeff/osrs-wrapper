@@ -29,6 +29,8 @@ export const MINIGAME_NAMES = [
     'leaguePoints',
     'bountyHunter',
     'bountyHunterRogues',
+    'bountyHunterLegacy',
+    'bountyHunterRoguesLegacy',
     'clueScrollsAll',
     'clueScrollsBeginner',
     'clueScrollsEasy',

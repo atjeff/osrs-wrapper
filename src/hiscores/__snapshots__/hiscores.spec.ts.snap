@@ -43,140 +43,140 @@ Object {
 exports[`Hiscores getHiscores should properly parse rank and kills for each boss 1`] = `
 Object {
   "abyssalSire": Object {
-    "kills": "-1",
-    "rank": "-1",
-  },
-  "alchemicalHydra": Object {
-    "kills": "95",
-    "rank": "153371",
-  },
-  "artio": Object {
     "kills": "378",
     "rank": "59731",
   },
-  "barrowsChests": Object {
+  "alchemicalHydra": Object {
     "kills": "-1",
     "rank": "-1",
+  },
+  "artio": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "barrowsChests": Object {
+    "kills": "394",
+    "rank": "110649",
   },
   "bryophyta": Object {
     "kills": "-1",
     "rank": "-1",
   },
   "callisto": Object {
-    "kills": "394",
-    "rank": "110649",
+    "kills": "-1",
+    "rank": "-1",
   },
   "calvarion": Object {
     "kills": "-1",
     "rank": "-1",
   },
   "cerberus": Object {
-    "kills": "-1",
-    "rank": "-1",
+    "kills": "523",
+    "rank": "94256",
   },
   "chambersOfXeric": Object {
     "kills": "-1",
     "rank": "-1",
   },
   "chambersOfXericChallengeMode": Object {
-    "kills": "523",
-    "rank": "94256",
+    "kills": "-1",
+    "rank": "-1",
   },
   "chaosElemental": Object {
-    "kills": "-1",
-    "rank": "-1",
-  },
-  "chaosFanatic": Object {
-    "kills": "-1",
-    "rank": "-1",
-  },
-  "commanderZilyana": Object {
     "kills": "6",
     "rank": "160290",
   },
-  "corporealBeast": Object {
+  "chaosFanatic": Object {
     "kills": "7",
     "rank": "191412",
+  },
+  "commanderZilyana": Object {
+    "kills": "55",
+    "rank": "131458",
+  },
+  "corporealBeast": Object {
+    "kills": "93",
+    "rank": "69364",
   },
   "corruptedGauntlet": Object {
     "kills": "-1",
     "rank": "-1",
   },
   "crazyArchaeologist": Object {
-    "kills": "55",
-    "rank": "131458",
-  },
-  "dagannothPrime": Object {
-    "kills": "93",
-    "rank": "69364",
-  },
-  "dagannothRex": Object {
     "kills": "-1",
     "rank": "-1",
   },
-  "dagannothSupreme": Object {
+  "dagannothPrime": Object {
     "kills": "164",
     "rank": "129476",
   },
-  "derangedArchaeologist": Object {
+  "dagannothRex": Object {
     "kills": "160",
     "rank": "197639",
+  },
+  "dagannothSupreme": Object {
+    "kills": "162",
+    "rank": "131149",
+  },
+  "derangedArchaeologist": Object {
+    "kills": "-1",
+    "rank": "-1",
   },
   "gauntlet": Object {
     "kills": "-1",
     "rank": "-1",
   },
   "generalGraardor": Object {
-    "kills": "162",
-    "rank": "131149",
-  },
-  "giantMole": Object {
-    "kills": "-1",
-    "rank": "-1",
-  },
-  "grotesqueGuardians": Object {
     "kills": "13",
     "rank": "320681",
   },
-  "hespori": Object {
+  "giantMole": Object {
     "kills": "651",
     "rank": "43129",
   },
-  "kalphiteQueen": Object {
+  "grotesqueGuardians": Object {
     "kills": "-1",
     "rank": "-1",
   },
-  "kingBlackDragon": Object {
+  "hespori": Object {
     "kills": "20",
     "rank": "315446",
   },
-  "kraken": Object {
+  "kalphiteQueen": Object {
     "kills": "32",
     "rank": "154287",
   },
-  "kreearra": Object {
+  "kingBlackDragon": Object {
     "kills": "180",
     "rank": "164470",
   },
-  "krilTsutsaroth": Object {
+  "kraken": Object {
     "kills": "33",
     "rank": "386137",
   },
-  "mimic": Object {
+  "kreearra": Object {
     "kills": "-1",
     "rank": "-1",
   },
-  "nex": Object {
+  "krilTsutsaroth": Object {
     "kills": "61",
     "rank": "119639",
   },
-  "nightmare": Object {
+  "mimic": Object {
     "kills": "1",
     "rank": "98329",
   },
-  "obor": Object {
+  "nex": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "nightmare": Object {
     "kills": "11",
     "rank": "68866",
+  },
+  "obor": Object {
+    "kills": "-1",
+    "rank": "-1",
   },
   "phantomMuspah": Object {
     "kills": "-1",
@@ -195,16 +195,16 @@ Object {
     "rank": "-1",
   },
   "skotizo": Object {
-    "kills": "-1",
-    "rank": "-1",
+    "kills": "9",
+    "rank": "340565",
   },
   "spindel": Object {
     "kills": "-1",
     "rank": "-1",
   },
   "tempoross": Object {
-    "kills": "9",
-    "rank": "340565",
+    "kills": "-1",
+    "rank": "-1",
   },
   "theatreOfBlood": Object {
     "kills": "-1",
@@ -215,48 +215,48 @@ Object {
     "rank": "-1",
   },
   "thermonuclearSmokeDevil": Object {
-    "kills": "-1",
-    "rank": "-1",
+    "kills": "62",
+    "rank": "185038",
   },
   "tombsOfAmascut": Object {
     "kills": "-1",
     "rank": "-1",
   },
   "tombsOfAmascutExpertMode": Object {
-    "kills": "62",
-    "rank": "185038",
+    "kills": "-1",
+    "rank": "-1",
   },
   "tzKalZuk": Object {
     "kills": "-1",
     "rank": "-1",
   },
   "tzTokJad": Object {
-    "kills": "-1",
-    "rank": "-1",
-  },
-  "venenatis": Object {
-    "kills": "-1",
-    "rank": "-1",
-  },
-  "vetion": Object {
     "kills": "6",
     "rank": "132805",
   },
-  "vorkath": Object {
+  "venenatis": Object {
     "kills": "191",
     "rank": "40139",
   },
-  "wintertodt": Object {
+  "vetion": Object {
     "kills": "-1",
     "rank": "-1",
   },
-  "zalcano": Object {
+  "vorkath": Object {
     "kills": "134",
     "rank": "289420",
   },
-  "zulrah": Object {
+  "wintertodt": Object {
     "kills": "404",
     "rank": "236447",
+  },
+  "zalcano": Object {
+    "kills": "-1",
+    "rank": "-1",
+  },
+  "zulrah": Object {
+    "kills": "690",
+    "rank": "130143",
   },
 }
 `;
@@ -267,57 +267,65 @@ Object {
     "rank": "-1",
     "score": "-1",
   },
+  "bountyHunterLegacy": Object {
+    "rank": "166621",
+    "score": "6",
+  },
   "bountyHunterRogues": Object {
     "rank": "-1",
     "score": "-1",
   },
-  "clueScrollsAll": Object {
-    "rank": "166621",
-    "score": "6",
-  },
-  "clueScrollsBeginner": Object {
+  "bountyHunterRoguesLegacy": Object {
     "rank": "112087",
     "score": "6",
   },
-  "clueScrollsEasy": Object {
+  "clueScrollsAll": Object {
     "rank": "39763",
     "score": "769",
   },
-  "clueScrollsElite": Object {
-    "rank": "196652",
-    "score": "56",
+  "clueScrollsBeginner": Object {
+    "rank": "110824",
+    "score": "27",
   },
-  "clueScrollsHard": Object {
+  "clueScrollsEasy": Object {
     "rank": "72321",
     "score": "65",
   },
-  "clueScrollsMaster": Object {
+  "clueScrollsElite": Object {
+    "rank": "15368",
+    "score": "118",
+  },
+  "clueScrollsHard": Object {
     "rank": "11160",
     "score": "452",
   },
+  "clueScrollsMaster": Object {
+    "rank": "34024",
+    "score": "51",
+  },
   "clueScrollsMedium": Object {
-    "rank": "110824",
-    "score": "27",
+    "rank": "196652",
+    "score": "56",
   },
   "leaguePoints": Object {
     "rank": "-1",
     "score": "-1",
   },
   "lms": Object {
-    "rank": "15368",
-    "score": "118",
+    "rank": "72844",
+    "score": "713",
   },
   "pvpArena": Object {
-    "rank": "34024",
-    "score": "51",
-  },
-  "riftsClosed": Object {
     "rank": "-1",
     "score": "-1",
   },
+  "riftsClosed": Object {
+    "rank": "153371",
+    "score": "95",
+  },
   "soulWarsZeal": Object {
-    "rank": "72844",
-    "score": "713",
+    "rank": "-1",
+    "score": "-1",
   },
 }
 `;
@@ -451,140 +459,140 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
 Object {
   "bosses": Object {
     "abyssalSire": Object {
-      "kills": "-1",
-      "rank": "-1",
-    },
-    "alchemicalHydra": Object {
-      "kills": "95",
-      "rank": "153371",
-    },
-    "artio": Object {
       "kills": "378",
       "rank": "59731",
     },
-    "barrowsChests": Object {
+    "alchemicalHydra": Object {
       "kills": "-1",
       "rank": "-1",
+    },
+    "artio": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "barrowsChests": Object {
+      "kills": "394",
+      "rank": "110649",
     },
     "bryophyta": Object {
       "kills": "-1",
       "rank": "-1",
     },
     "callisto": Object {
-      "kills": "394",
-      "rank": "110649",
+      "kills": "-1",
+      "rank": "-1",
     },
     "calvarion": Object {
       "kills": "-1",
       "rank": "-1",
     },
     "cerberus": Object {
-      "kills": "-1",
-      "rank": "-1",
+      "kills": "523",
+      "rank": "94256",
     },
     "chambersOfXeric": Object {
       "kills": "-1",
       "rank": "-1",
     },
     "chambersOfXericChallengeMode": Object {
-      "kills": "523",
-      "rank": "94256",
+      "kills": "-1",
+      "rank": "-1",
     },
     "chaosElemental": Object {
-      "kills": "-1",
-      "rank": "-1",
-    },
-    "chaosFanatic": Object {
-      "kills": "-1",
-      "rank": "-1",
-    },
-    "commanderZilyana": Object {
       "kills": "6",
       "rank": "160290",
     },
-    "corporealBeast": Object {
+    "chaosFanatic": Object {
       "kills": "7",
       "rank": "191412",
+    },
+    "commanderZilyana": Object {
+      "kills": "55",
+      "rank": "131458",
+    },
+    "corporealBeast": Object {
+      "kills": "93",
+      "rank": "69364",
     },
     "corruptedGauntlet": Object {
       "kills": "-1",
       "rank": "-1",
     },
     "crazyArchaeologist": Object {
-      "kills": "55",
-      "rank": "131458",
-    },
-    "dagannothPrime": Object {
-      "kills": "93",
-      "rank": "69364",
-    },
-    "dagannothRex": Object {
       "kills": "-1",
       "rank": "-1",
     },
-    "dagannothSupreme": Object {
+    "dagannothPrime": Object {
       "kills": "164",
       "rank": "129476",
     },
-    "derangedArchaeologist": Object {
+    "dagannothRex": Object {
       "kills": "160",
       "rank": "197639",
+    },
+    "dagannothSupreme": Object {
+      "kills": "162",
+      "rank": "131149",
+    },
+    "derangedArchaeologist": Object {
+      "kills": "-1",
+      "rank": "-1",
     },
     "gauntlet": Object {
       "kills": "-1",
       "rank": "-1",
     },
     "generalGraardor": Object {
-      "kills": "162",
-      "rank": "131149",
-    },
-    "giantMole": Object {
-      "kills": "-1",
-      "rank": "-1",
-    },
-    "grotesqueGuardians": Object {
       "kills": "13",
       "rank": "320681",
     },
-    "hespori": Object {
+    "giantMole": Object {
       "kills": "651",
       "rank": "43129",
     },
-    "kalphiteQueen": Object {
+    "grotesqueGuardians": Object {
       "kills": "-1",
       "rank": "-1",
     },
-    "kingBlackDragon": Object {
+    "hespori": Object {
       "kills": "20",
       "rank": "315446",
     },
-    "kraken": Object {
+    "kalphiteQueen": Object {
       "kills": "32",
       "rank": "154287",
     },
-    "kreearra": Object {
+    "kingBlackDragon": Object {
       "kills": "180",
       "rank": "164470",
     },
-    "krilTsutsaroth": Object {
+    "kraken": Object {
       "kills": "33",
       "rank": "386137",
     },
-    "mimic": Object {
+    "kreearra": Object {
       "kills": "-1",
       "rank": "-1",
     },
-    "nex": Object {
+    "krilTsutsaroth": Object {
       "kills": "61",
       "rank": "119639",
     },
-    "nightmare": Object {
+    "mimic": Object {
       "kills": "1",
       "rank": "98329",
     },
-    "obor": Object {
+    "nex": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "nightmare": Object {
       "kills": "11",
       "rank": "68866",
+    },
+    "obor": Object {
+      "kills": "-1",
+      "rank": "-1",
     },
     "phantomMuspah": Object {
       "kills": "-1",
@@ -603,16 +611,16 @@ Object {
       "rank": "-1",
     },
     "skotizo": Object {
-      "kills": "-1",
-      "rank": "-1",
+      "kills": "9",
+      "rank": "340565",
     },
     "spindel": Object {
       "kills": "-1",
       "rank": "-1",
     },
     "tempoross": Object {
-      "kills": "9",
-      "rank": "340565",
+      "kills": "-1",
+      "rank": "-1",
     },
     "theatreOfBlood": Object {
       "kills": "-1",
@@ -623,48 +631,48 @@ Object {
       "rank": "-1",
     },
     "thermonuclearSmokeDevil": Object {
-      "kills": "-1",
-      "rank": "-1",
+      "kills": "62",
+      "rank": "185038",
     },
     "tombsOfAmascut": Object {
       "kills": "-1",
       "rank": "-1",
     },
     "tombsOfAmascutExpertMode": Object {
-      "kills": "62",
-      "rank": "185038",
+      "kills": "-1",
+      "rank": "-1",
     },
     "tzKalZuk": Object {
       "kills": "-1",
       "rank": "-1",
     },
     "tzTokJad": Object {
-      "kills": "-1",
-      "rank": "-1",
-    },
-    "venenatis": Object {
-      "kills": "-1",
-      "rank": "-1",
-    },
-    "vetion": Object {
       "kills": "6",
       "rank": "132805",
     },
-    "vorkath": Object {
+    "venenatis": Object {
       "kills": "191",
       "rank": "40139",
     },
-    "wintertodt": Object {
+    "vetion": Object {
       "kills": "-1",
       "rank": "-1",
     },
-    "zalcano": Object {
+    "vorkath": Object {
       "kills": "134",
       "rank": "289420",
     },
-    "zulrah": Object {
+    "wintertodt": Object {
       "kills": "404",
       "rank": "236447",
+    },
+    "zalcano": Object {
+      "kills": "-1",
+      "rank": "-1",
+    },
+    "zulrah": Object {
+      "kills": "690",
+      "rank": "130143",
     },
   },
   "minigames": Object {
@@ -672,57 +680,65 @@ Object {
       "rank": "-1",
       "score": "-1",
     },
+    "bountyHunterLegacy": Object {
+      "rank": "166621",
+      "score": "6",
+    },
     "bountyHunterRogues": Object {
       "rank": "-1",
       "score": "-1",
     },
-    "clueScrollsAll": Object {
-      "rank": "166621",
-      "score": "6",
-    },
-    "clueScrollsBeginner": Object {
+    "bountyHunterRoguesLegacy": Object {
       "rank": "112087",
       "score": "6",
     },
-    "clueScrollsEasy": Object {
+    "clueScrollsAll": Object {
       "rank": "39763",
       "score": "769",
     },
-    "clueScrollsElite": Object {
-      "rank": "196652",
-      "score": "56",
+    "clueScrollsBeginner": Object {
+      "rank": "110824",
+      "score": "27",
     },
-    "clueScrollsHard": Object {
+    "clueScrollsEasy": Object {
       "rank": "72321",
       "score": "65",
     },
-    "clueScrollsMaster": Object {
+    "clueScrollsElite": Object {
+      "rank": "15368",
+      "score": "118",
+    },
+    "clueScrollsHard": Object {
       "rank": "11160",
       "score": "452",
     },
+    "clueScrollsMaster": Object {
+      "rank": "34024",
+      "score": "51",
+    },
     "clueScrollsMedium": Object {
-      "rank": "110824",
-      "score": "27",
+      "rank": "196652",
+      "score": "56",
     },
     "leaguePoints": Object {
       "rank": "-1",
       "score": "-1",
     },
     "lms": Object {
-      "rank": "15368",
-      "score": "118",
+      "rank": "72844",
+      "score": "713",
     },
     "pvpArena": Object {
-      "rank": "34024",
-      "score": "51",
-    },
-    "riftsClosed": Object {
       "rank": "-1",
       "score": "-1",
     },
+    "riftsClosed": Object {
+      "rank": "153371",
+      "score": "95",
+    },
     "soulWarsZeal": Object {
-      "rank": "72844",
-      "score": "713",
+      "rank": "-1",
+      "score": "-1",
     },
   },
   "skills": Object {

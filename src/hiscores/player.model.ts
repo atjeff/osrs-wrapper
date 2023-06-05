@@ -41,6 +41,8 @@ export interface Minigames {
     leaguePoints: Minigame;
     bountyHunter: Minigame;
     bountyHunterRogues: Minigame;
+    bountyHunterLegacy: Minigame;
+    bountyHunterRoguesLegacy: Minigame;
     clueScrollsAll: Minigame;
     clueScrollsBeginner: Minigame;
     clueScrollsEasy: Minigame;
