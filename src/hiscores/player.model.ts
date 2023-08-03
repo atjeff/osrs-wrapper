@@ -81,6 +81,7 @@ export interface Bosses {
     dagannothRex: Boss;
     dagannothSupreme: Boss;
     derangedArchaeologist: Boss;
+    dukeSucellus: Boss;
     generalGraardor: Boss;
     giantMole: Boss;
     grotesqueGuardians: Boss;
@@ -103,6 +104,8 @@ export interface Bosses {
     tempoross: Boss;
     gauntlet: Boss;
     corruptedGauntlet: Boss;
+    leviathan: Boss;
+    whisperer: Boss;
     theatreOfBlood: Boss;
     theatreOfBloodHardMode: Boss;
     thermonuclearSmokeDevil: Boss;
@@ -110,6 +113,7 @@ export interface Bosses {
     tombsOfAmascutExpertMode: Boss;
     tzKalZuk: Boss;
     tzTokJad: Boss;
+    vardorvis: Boss;
     venenatis: Boss;
     vetion: Boss;
     vorkath: Boss;
