@@ -43,6 +43,7 @@ export interface Skill {
 
 export interface Minigames {
     leaguePoints: Minigame;
+    deadmanPoints: Minigame;
     bountyHunter: Minigame;
     bountyHunterRogues: Minigame;
     bountyHunterLegacy: Minigame;

@@ -27,6 +27,7 @@ export const SKILL_NAMES = {
 
 export const MINIGAME_NAMES = {
     'League Points': 'leaguePoints',
+    'Deadman Points': 'deadmanPoints',
     'Bounty Hunter - Hunter': 'bountyHunter',
     'Bounty Hunter - Rogue': 'bountyHunterRogues',
     'Bounty Hunter (Legacy) - Hunter': 'bountyHunterLegacy',

@@ -319,6 +319,10 @@ exports[`Hiscores getHiscores should properly parse rank and score for each mini
     "rank": 14242,
     "score": 557,
   },
+  "deadmanPoints": {
+    "rank": -1,
+    "score": -1,
+  },
   "leaguePoints": {
     "rank": -1,
     "score": -1,
@@ -743,6 +747,10 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     "clueScrollsMedium": {
       "rank": 14242,
       "score": 557,
+    },
+    "deadmanPoints": {
+      "rank": -1,
+      "score": -1,
     },
     "leaguePoints": {
       "rank": -1,
