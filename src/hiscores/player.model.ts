@@ -1,3 +1,7 @@
+export type HiscoreResponse = {
+    skills: { id: number; name: string; rank: number; level: number; xp: number }[];
+    activities: { id: number; name: string; rank: number; score: number }[];
+};
 export interface Player {
     skills: Skills;
     minigames: Minigames;
@@ -39,6 +43,7 @@ export interface Skill {
 
 export interface Minigames {
     leaguePoints: Minigame;
+    deadmanPoints: Minigame;
     bountyHunter: Minigame;
     bountyHunterRogues: Minigame;
     bountyHunterLegacy: Minigame;

@@ -1,5 +1,5 @@
 import { request } from 'gaxios';
-import { mockHiscoreCsv } from '../../test/hiscore-csv.mock';
+import { mockHiscoreResponse } from '../../test/hiscore-response.mock';
 import { HiscoreTypes } from './hiscore-types.enum';
 import { getHiscores } from './hiscores.module';
 
@@ -8,7 +8,7 @@ jest.mock('gaxios');
 describe('Hiscores', () => {
     describe('getHiscores', () => {
         const playerName = 'Bald';
-        const mockedSuccessfulResponse = { data: mockHiscoreCsv } as any;
+        const mockedSuccessfulResponse = { data: mockHiscoreResponse } as any;
         let mockedGaxiosRequest = request as jest.MockedFunction<typeof request>;
 
         mockedGaxiosRequest.mockResolvedValue(mockedSuccessfulResponse);
@@ -59,7 +59,7 @@ describe('Hiscores', () => {
             expect(bosses).toMatchSnapshot();
         });
 
-        it('should return skills, minigames, and bosses from a csv', async () => {
+        it('should return skills, minigames, and bosses from a json response', async () => {
             const output = await getHiscores(playerName);
 
             expect(output).toMatchSnapshot();
