@@ -29,11 +29,11 @@ export async function getHiscores(username: string, type: HiscoreTypes = Hiscore
     const bosses = {} as Bosses;
     for (const activity of data.activities) {
         const { rank, score, name } = activity;
-        const isMinigame = !!MINIGAME_NAMES[name];
-        const activityName = isMinigame ? MINIGAME_NAMES[name] : BOSS_NAMES[name];
-        if (activityName) {
-            if (isMinigame) minigames[activityName] = { rank, score };
-            else bosses[activityName] = { rank, kills: score };
+
+        if (!!MINIGAME_NAMES[name]) {
+            minigames[MINIGAME_NAMES[name]] = { rank, score };
+        } else if (!!BOSS_NAMES[name]) {
+            bosses[BOSS_NAMES[name]] = { rank, kills: score };
         }
     }
 
