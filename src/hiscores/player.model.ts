@@ -104,6 +104,7 @@ export interface Bosses {
     phantomMuspah: Boss;
     sarachnis: Boss;
     scorpia: Boss;
+    scurrius: Boss;
     skotizo: Boss;
     spindel: Boss;
     tempoross: Boss;
