@@ -43,6 +43,7 @@ export const MINIGAME_NAMES = {
     'PvP Arena - Rank': 'pvpArena',
     'Soul Wars Zeal': 'soulWarsZeal',
     'Rifts closed': 'riftsClosed',
+    'Colosseum Glory': 'colosseumGlory',
 };
 
 export const BOSS_NAMES = {
@@ -75,6 +76,7 @@ export const BOSS_NAMES = {
     Kraken: 'kraken',
     Kreearra: 'kreearra',
     "K'ril Tsutsaroth": 'krilTsutsaroth',
+    'Lunar Chests': 'lunarChests',
     Mimic: 'mimic',
     Nex: 'nex',
     Nightmare: 'nightmare',
@@ -85,6 +87,7 @@ export const BOSS_NAMES = {
     Scorpia: 'scorpia',
     Scurrius: 'scurrius',
     Skotizo: 'skotizo',
+    'Sol Heredit': 'solHeredit',
     Spindel: 'spindel',
     Tempoross: 'tempoross',
     'The Gauntlet': 'gauntlet',
