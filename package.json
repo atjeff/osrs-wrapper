@@ -1,6 +1,6 @@
 {
     "name": "osrs-wrapper",
-    "version": "2.2.6",
+    "version": "2.2.7",
     "description": "A simple wrapper around the Old School Runescape API",
     "main": "index.js",
     "keywords": [
