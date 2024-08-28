@@ -69,6 +69,7 @@ export interface Minigame {
 export interface Bosses {
     abyssalSire: Boss;
     alchemicalHydra: Boss;
+    araxxor: Boss;
     artio: Boss;
     barrowsChests: Boss;
     bryophyta: Boss;

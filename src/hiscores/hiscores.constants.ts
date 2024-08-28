@@ -49,6 +49,7 @@ export const MINIGAME_NAMES = {
 export const BOSS_NAMES = {
     'Abyssal Sire': 'abyssalSire',
     'Alchemical Hydra': 'alchemicalHydra',
+    Araxxor: 'araxxor',
     Artio: 'artio',
     'Barrows Chests': 'barrowsChests',
     Bryophyta: 'bryophyta',
