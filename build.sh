@@ -10,14 +10,6 @@ then
   exit 1
 fi
 
-echo "Verifying the current branch is clean"
-CHANGES=$(git status --porcelain)
-if [[ "$CHANGES" != "" ]];
-then
-  echo "Unclean working tree. Commit or stash changes first."
-  exit 1
-fi
-
 echo "Running tests"
 npm run lint && npm run test
 
