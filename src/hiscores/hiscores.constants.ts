@@ -49,6 +49,7 @@ export const MINIGAME_NAMES = {
 export const BOSS_NAMES = {
     'Abyssal Sire': 'abyssalSire',
     'Alchemical Hydra': 'alchemicalHydra',
+    Amoxliatl: 'amoxliatl',
     Araxxor: 'araxxor',
     Artio: 'artio',
     'Barrows Chests': 'barrowsChests',
@@ -93,6 +94,7 @@ export const BOSS_NAMES = {
     Tempoross: 'tempoross',
     'The Gauntlet': 'gauntlet',
     'The Corrupted Gauntlet': 'corruptedGauntlet',
+    'The Hueycoatl': 'hueycoatl',
     'The Leviathan': 'leviathan',
     'The Whisperer': 'whisperer',
     'Theatre of Blood': 'theatreOfBlood',

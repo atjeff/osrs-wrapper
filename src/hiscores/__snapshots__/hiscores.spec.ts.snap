@@ -44,9 +44,13 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
 {
   "abyssalSire": {
     "kills": 378,
-    "rank": 71704,
+    "rank": 73508,
   },
   "alchemicalHydra": {
+    "kills": -1,
+    "rank": -1,
+  },
+  "amoxliatl": {
     "kills": -1,
     "rank": -1,
   },
@@ -60,7 +64,7 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "barrowsChests": {
     "kills": 415,
-    "rank": 126838,
+    "rank": 128237,
   },
   "bryophyta": {
     "kills": -1,
@@ -76,11 +80,11 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "cerberus": {
     "kills": 523,
-    "rank": 119189,
+    "rank": 121198,
   },
   "chambersOfXeric": {
     "kills": 6,
-    "rank": 296526,
+    "rank": 300029,
   },
   "chambersOfXericChallengeMode": {
     "kills": -1,
@@ -88,19 +92,19 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "chaosElemental": {
     "kills": 6,
-    "rank": 237309,
+    "rank": 240720,
   },
   "chaosFanatic": {
     "kills": 7,
-    "rank": 291488,
+    "rank": 296391,
   },
   "commanderZilyana": {
     "kills": 57,
-    "rank": 165879,
+    "rank": 167996,
   },
   "corporealBeast": {
     "kills": 93,
-    "rank": 78550,
+    "rank": 78821,
   },
   "corruptedGauntlet": {
     "kills": -1,
@@ -112,15 +116,15 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "dagannothPrime": {
     "kills": 166,
-    "rank": 153558,
+    "rank": 155337,
   },
   "dagannothRex": {
     "kills": 172,
-    "rank": 227184,
+    "rank": 230055,
   },
   "dagannothSupreme": {
     "kills": 166,
-    "rank": 152686,
+    "rank": 154370,
   },
   "derangedArchaeologist": {
     "kills": -1,
@@ -128,7 +132,7 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "dukeSucellus": {
     "kills": 300,
-    "rank": 35845,
+    "rank": 37163,
   },
   "gauntlet": {
     "kills": -1,
@@ -136,11 +140,11 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "generalGraardor": {
     "kills": 14,
-    "rank": 408552,
+    "rank": 412346,
   },
   "giantMole": {
     "kills": 674,
-    "rank": 56197,
+    "rank": 56994,
   },
   "grotesqueGuardians": {
     "kills": -1,
@@ -148,23 +152,27 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "hespori": {
     "kills": 20,
-    "rank": 398653,
+    "rank": 404379,
+  },
+  "hueycoatl": {
+    "kills": -1,
+    "rank": -1,
   },
   "kalphiteQueen": {
     "kills": 34,
-    "rank": 199859,
+    "rank": 202775,
   },
   "kingBlackDragon": {
     "kills": 180,
-    "rank": 187563,
+    "rank": 189257,
   },
   "kraken": {
     "kills": 33,
-    "rank": 464747,
+    "rank": 471230,
   },
   "krilTsutsaroth": {
     "kills": 62,
-    "rank": 148280,
+    "rank": 150875,
   },
   "leviathan": {
     "kills": -1,
@@ -176,15 +184,15 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "mimic": {
     "kills": 3,
-    "rank": 73888,
+    "rank": 75529,
   },
   "nex": {
     "kills": 220,
-    "rank": 67521,
+    "rank": 68692,
   },
   "nightmare": {
     "kills": 11,
-    "rank": 85021,
+    "rank": 85821,
   },
   "obor": {
     "kills": -1,
@@ -212,7 +220,7 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "skotizo": {
     "kills": 12,
-    "rank": 365331,
+    "rank": 370233,
   },
   "solHeredit": {
     "kills": -1,
@@ -236,31 +244,31 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "thermonuclearSmokeDevil": {
     "kills": 62,
-    "rank": 227343,
+    "rank": 230856,
   },
   "tombsOfAmascut": {
     "kills": 39,
-    "rank": 118175,
+    "rank": 120096,
   },
   "tombsOfAmascutExpertMode": {
     "kills": 98,
-    "rank": 49095,
+    "rank": 50168,
   },
   "tzKalZuk": {
     "kills": 1,
-    "rank": 68365,
+    "rank": 68669,
   },
   "tzTokJad": {
     "kills": 8,
-    "rank": 141039,
+    "rank": 142966,
   },
   "vardorvis": {
     "kills": 5,
-    "rank": 94247,
+    "rank": 97673,
   },
   "venenatis": {
     "kills": 191,
-    "rank": 53200,
+    "rank": 53801,
   },
   "vetion": {
     "kills": -1,
@@ -268,7 +276,7 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "vorkath": {
     "kills": 134,
-    "rank": 343702,
+    "rank": 347601,
   },
   "whisperer": {
     "kills": -1,
@@ -276,7 +284,7 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "wintertodt": {
     "kills": 404,
-    "rank": 294152,
+    "rank": 297847,
   },
   "zalcano": {
     "kills": -1,
@@ -284,7 +292,7 @@ exports[`Hiscores getHiscores should properly parse rank and kills for each boss
   },
   "zulrah": {
     "kills": 693,
-    "rank": 151804,
+    "rank": 153119,
   },
 }
 `;
@@ -296,7 +304,7 @@ exports[`Hiscores getHiscores should properly parse rank and score for each mini
     "score": -1,
   },
   "bountyHunterLegacy": {
-    "rank": 164245,
+    "rank": 164040,
     "score": 6,
   },
   "bountyHunterRogues": {
@@ -304,35 +312,35 @@ exports[`Hiscores getHiscores should properly parse rank and score for each mini
     "score": -1,
   },
   "bountyHunterRoguesLegacy": {
-    "rank": 109891,
+    "rank": 109733,
     "score": 6,
   },
   "clueScrollsAll": {
-    "rank": 53147,
+    "rank": 54452,
     "score": 790,
   },
   "clueScrollsBeginner": {
-    "rank": 162076,
+    "rank": 165965,
     "score": 27,
   },
   "clueScrollsEasy": {
-    "rank": 97872,
+    "rank": 99968,
     "score": 65,
   },
   "clueScrollsElite": {
-    "rank": 22663,
+    "rank": 23496,
     "score": 118,
   },
   "clueScrollsHard": {
-    "rank": 15762,
+    "rank": 16282,
     "score": 454,
   },
   "clueScrollsMaster": {
-    "rank": 34918,
+    "rank": 35917,
     "score": 69,
   },
   "clueScrollsMedium": {
-    "rank": 233579,
+    "rank": 236176,
     "score": 57,
   },
   "colosseumGlory": {
@@ -348,7 +356,7 @@ exports[`Hiscores getHiscores should properly parse rank and score for each mini
     "score": -1,
   },
   "lms": {
-    "rank": 107582,
+    "rank": 110356,
     "score": 737,
   },
   "pvpArena": {
@@ -356,7 +364,7 @@ exports[`Hiscores getHiscores should properly parse rank and score for each mini
     "score": -1,
   },
   "riftsClosed": {
-    "rank": 160348,
+    "rank": 164911,
     "score": 174,
   },
   "soulWarsZeal": {
@@ -370,123 +378,123 @@ exports[`Hiscores getHiscores should properly parse rank, level, and xp for each
 {
   "agility": {
     "level": 86,
-    "rank": 198963,
-    "xp": 3742675,
+    "rank": 202532,
+    "xp": 3750415,
   },
   "attack": {
     "level": 99,
-    "rank": 78278,
+    "rank": 79458,
     "xp": 21037534,
   },
   "construction": {
     "level": 99,
-    "rank": 97574,
+    "rank": 99655,
     "xp": 13041814,
   },
   "cooking": {
     "level": 99,
-    "rank": 76187,
+    "rank": 77845,
     "xp": 14860431,
   },
   "crafting": {
     "level": 99,
-    "rank": 74422,
-    "xp": 13604168,
+    "rank": 58868,
+    "xp": 13963216,
   },
   "defence": {
     "level": 99,
-    "rank": 52584,
+    "rank": 53390,
     "xp": 19951069,
   },
   "farming": {
     "level": 99,
-    "rank": 200821,
-    "xp": 13309264,
+    "rank": 176294,
+    "xp": 13560401,
   },
   "firemaking": {
     "level": 99,
-    "rank": 66299,
+    "rank": 67653,
     "xp": 14106174,
   },
   "fishing": {
     "level": 99,
-    "rank": 122926,
+    "rank": 124732,
     "xp": 13041101,
   },
   "fletching": {
     "level": 99,
-    "rank": 59505,
+    "rank": 60226,
     "xp": 13487041,
   },
   "herblore": {
     "level": 99,
-    "rank": 39388,
-    "xp": 13350859,
+    "rank": 40589,
+    "xp": 13352479,
   },
   "hitpoints": {
     "level": 99,
-    "rank": 113651,
-    "xp": 35167187,
+    "rank": 116867,
+    "xp": 35183018,
   },
   "hunter": {
-    "level": 84,
-    "rank": 280595,
-    "xp": 3219765,
+    "level": 85,
+    "rank": 265492,
+    "xp": 3447862,
   },
   "magic": {
     "level": 99,
-    "rank": 67930,
-    "xp": 23828381,
+    "rank": 69594,
+    "xp": 23912339,
   },
   "mining": {
     "level": 99,
-    "rank": 54903,
-    "xp": 13789044,
+    "rank": 49227,
+    "xp": 14051688,
   },
   "overall": {
-    "level": 2223,
-    "rank": 79830,
-    "xp": 346656360,
+    "level": 2228,
+    "rank": 78286,
+    "xp": 350155825,
   },
   "prayer": {
     "level": 99,
-    "rank": 26676,
-    "xp": 13537456,
+    "rank": 27429,
+    "xp": 13537460,
   },
   "ranged": {
     "level": 99,
-    "rank": 152210,
-    "xp": 27455574,
+    "rank": 154903,
+    "xp": 27502842,
   },
   "runecrafting": {
-    "level": 90,
-    "rank": 129035,
-    "xp": 5716496,
+    "level": 94,
+    "rank": 105400,
+    "xp": 7957634,
   },
   "slayer": {
     "level": 99,
-    "rank": 97339,
+    "rank": 103978,
     "xp": 14465551,
   },
   "smithing": {
     "level": 89,
-    "rank": 192914,
+    "rank": 196089,
     "xp": 5196110,
   },
   "strength": {
     "level": 99,
-    "rank": 71141,
-    "xp": 30852240,
+    "rank": 75015,
+    "xp": 30852600,
   },
   "thieving": {
     "level": 92,
-    "rank": 201865,
-    "xp": 6660699,
+    "rank": 205777,
+    "xp": 6660719,
   },
   "woodcutting": {
     "level": 99,
-    "rank": 109581,
-    "xp": 13235727,
+    "rank": 111828,
+    "xp": 13236327,
   },
 }
 `;
@@ -496,9 +504,13 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
   "bosses": {
     "abyssalSire": {
       "kills": 378,
-      "rank": 71704,
+      "rank": 73508,
     },
     "alchemicalHydra": {
+      "kills": -1,
+      "rank": -1,
+    },
+    "amoxliatl": {
       "kills": -1,
       "rank": -1,
     },
@@ -512,7 +524,7 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "barrowsChests": {
       "kills": 415,
-      "rank": 126838,
+      "rank": 128237,
     },
     "bryophyta": {
       "kills": -1,
@@ -528,11 +540,11 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "cerberus": {
       "kills": 523,
-      "rank": 119189,
+      "rank": 121198,
     },
     "chambersOfXeric": {
       "kills": 6,
-      "rank": 296526,
+      "rank": 300029,
     },
     "chambersOfXericChallengeMode": {
       "kills": -1,
@@ -540,19 +552,19 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "chaosElemental": {
       "kills": 6,
-      "rank": 237309,
+      "rank": 240720,
     },
     "chaosFanatic": {
       "kills": 7,
-      "rank": 291488,
+      "rank": 296391,
     },
     "commanderZilyana": {
       "kills": 57,
-      "rank": 165879,
+      "rank": 167996,
     },
     "corporealBeast": {
       "kills": 93,
-      "rank": 78550,
+      "rank": 78821,
     },
     "corruptedGauntlet": {
       "kills": -1,
@@ -564,15 +576,15 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "dagannothPrime": {
       "kills": 166,
-      "rank": 153558,
+      "rank": 155337,
     },
     "dagannothRex": {
       "kills": 172,
-      "rank": 227184,
+      "rank": 230055,
     },
     "dagannothSupreme": {
       "kills": 166,
-      "rank": 152686,
+      "rank": 154370,
     },
     "derangedArchaeologist": {
       "kills": -1,
@@ -580,7 +592,7 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "dukeSucellus": {
       "kills": 300,
-      "rank": 35845,
+      "rank": 37163,
     },
     "gauntlet": {
       "kills": -1,
@@ -588,11 +600,11 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "generalGraardor": {
       "kills": 14,
-      "rank": 408552,
+      "rank": 412346,
     },
     "giantMole": {
       "kills": 674,
-      "rank": 56197,
+      "rank": 56994,
     },
     "grotesqueGuardians": {
       "kills": -1,
@@ -600,23 +612,27 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "hespori": {
       "kills": 20,
-      "rank": 398653,
+      "rank": 404379,
+    },
+    "hueycoatl": {
+      "kills": -1,
+      "rank": -1,
     },
     "kalphiteQueen": {
       "kills": 34,
-      "rank": 199859,
+      "rank": 202775,
     },
     "kingBlackDragon": {
       "kills": 180,
-      "rank": 187563,
+      "rank": 189257,
     },
     "kraken": {
       "kills": 33,
-      "rank": 464747,
+      "rank": 471230,
     },
     "krilTsutsaroth": {
       "kills": 62,
-      "rank": 148280,
+      "rank": 150875,
     },
     "leviathan": {
       "kills": -1,
@@ -628,15 +644,15 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "mimic": {
       "kills": 3,
-      "rank": 73888,
+      "rank": 75529,
     },
     "nex": {
       "kills": 220,
-      "rank": 67521,
+      "rank": 68692,
     },
     "nightmare": {
       "kills": 11,
-      "rank": 85021,
+      "rank": 85821,
     },
     "obor": {
       "kills": -1,
@@ -664,7 +680,7 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "skotizo": {
       "kills": 12,
-      "rank": 365331,
+      "rank": 370233,
     },
     "solHeredit": {
       "kills": -1,
@@ -688,31 +704,31 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "thermonuclearSmokeDevil": {
       "kills": 62,
-      "rank": 227343,
+      "rank": 230856,
     },
     "tombsOfAmascut": {
       "kills": 39,
-      "rank": 118175,
+      "rank": 120096,
     },
     "tombsOfAmascutExpertMode": {
       "kills": 98,
-      "rank": 49095,
+      "rank": 50168,
     },
     "tzKalZuk": {
       "kills": 1,
-      "rank": 68365,
+      "rank": 68669,
     },
     "tzTokJad": {
       "kills": 8,
-      "rank": 141039,
+      "rank": 142966,
     },
     "vardorvis": {
       "kills": 5,
-      "rank": 94247,
+      "rank": 97673,
     },
     "venenatis": {
       "kills": 191,
-      "rank": 53200,
+      "rank": 53801,
     },
     "vetion": {
       "kills": -1,
@@ -720,7 +736,7 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "vorkath": {
       "kills": 134,
-      "rank": 343702,
+      "rank": 347601,
     },
     "whisperer": {
       "kills": -1,
@@ -728,7 +744,7 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "wintertodt": {
       "kills": 404,
-      "rank": 294152,
+      "rank": 297847,
     },
     "zalcano": {
       "kills": -1,
@@ -736,7 +752,7 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
     },
     "zulrah": {
       "kills": 693,
-      "rank": 151804,
+      "rank": 153119,
     },
   },
   "minigames": {
@@ -745,7 +761,7 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
       "score": -1,
     },
     "bountyHunterLegacy": {
-      "rank": 164245,
+      "rank": 164040,
       "score": 6,
     },
     "bountyHunterRogues": {
@@ -753,35 +769,35 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
       "score": -1,
     },
     "bountyHunterRoguesLegacy": {
-      "rank": 109891,
+      "rank": 109733,
       "score": 6,
     },
     "clueScrollsAll": {
-      "rank": 53147,
+      "rank": 54452,
       "score": 790,
     },
     "clueScrollsBeginner": {
-      "rank": 162076,
+      "rank": 165965,
       "score": 27,
     },
     "clueScrollsEasy": {
-      "rank": 97872,
+      "rank": 99968,
       "score": 65,
     },
     "clueScrollsElite": {
-      "rank": 22663,
+      "rank": 23496,
       "score": 118,
     },
     "clueScrollsHard": {
-      "rank": 15762,
+      "rank": 16282,
       "score": 454,
     },
     "clueScrollsMaster": {
-      "rank": 34918,
+      "rank": 35917,
       "score": 69,
     },
     "clueScrollsMedium": {
-      "rank": 233579,
+      "rank": 236176,
       "score": 57,
     },
     "colosseumGlory": {
@@ -797,7 +813,7 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
       "score": -1,
     },
     "lms": {
-      "rank": 107582,
+      "rank": 110356,
       "score": 737,
     },
     "pvpArena": {
@@ -805,7 +821,7 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
       "score": -1,
     },
     "riftsClosed": {
-      "rank": 160348,
+      "rank": 164911,
       "score": 174,
     },
     "soulWarsZeal": {
@@ -816,123 +832,123 @@ exports[`Hiscores getHiscores should return skills, minigames, and bosses from a
   "skills": {
     "agility": {
       "level": 86,
-      "rank": 198963,
-      "xp": 3742675,
+      "rank": 202532,
+      "xp": 3750415,
     },
     "attack": {
       "level": 99,
-      "rank": 78278,
+      "rank": 79458,
       "xp": 21037534,
     },
     "construction": {
       "level": 99,
-      "rank": 97574,
+      "rank": 99655,
       "xp": 13041814,
     },
     "cooking": {
       "level": 99,
-      "rank": 76187,
+      "rank": 77845,
       "xp": 14860431,
     },
     "crafting": {
       "level": 99,
-      "rank": 74422,
-      "xp": 13604168,
+      "rank": 58868,
+      "xp": 13963216,
     },
     "defence": {
       "level": 99,
-      "rank": 52584,
+      "rank": 53390,
       "xp": 19951069,
     },
     "farming": {
       "level": 99,
-      "rank": 200821,
-      "xp": 13309264,
+      "rank": 176294,
+      "xp": 13560401,
     },
     "firemaking": {
       "level": 99,
-      "rank": 66299,
+      "rank": 67653,
       "xp": 14106174,
     },
     "fishing": {
       "level": 99,
-      "rank": 122926,
+      "rank": 124732,
       "xp": 13041101,
     },
     "fletching": {
       "level": 99,
-      "rank": 59505,
+      "rank": 60226,
       "xp": 13487041,
     },
     "herblore": {
       "level": 99,
-      "rank": 39388,
-      "xp": 13350859,
+      "rank": 40589,
+      "xp": 13352479,
     },
     "hitpoints": {
       "level": 99,
-      "rank": 113651,
-      "xp": 35167187,
+      "rank": 116867,
+      "xp": 35183018,
     },
     "hunter": {
-      "level": 84,
-      "rank": 280595,
-      "xp": 3219765,
+      "level": 85,
+      "rank": 265492,
+      "xp": 3447862,
     },
     "magic": {
       "level": 99,
-      "rank": 67930,
-      "xp": 23828381,
+      "rank": 69594,
+      "xp": 23912339,
     },
     "mining": {
       "level": 99,
-      "rank": 54903,
-      "xp": 13789044,
+      "rank": 49227,
+      "xp": 14051688,
     },
     "overall": {
-      "level": 2223,
-      "rank": 79830,
-      "xp": 346656360,
+      "level": 2228,
+      "rank": 78286,
+      "xp": 350155825,
     },
     "prayer": {
       "level": 99,
-      "rank": 26676,
-      "xp": 13537456,
+      "rank": 27429,
+      "xp": 13537460,
     },
     "ranged": {
       "level": 99,
-      "rank": 152210,
-      "xp": 27455574,
+      "rank": 154903,
+      "xp": 27502842,
     },
     "runecrafting": {
-      "level": 90,
-      "rank": 129035,
-      "xp": 5716496,
+      "level": 94,
+      "rank": 105400,
+      "xp": 7957634,
     },
     "slayer": {
       "level": 99,
-      "rank": 97339,
+      "rank": 103978,
       "xp": 14465551,
     },
     "smithing": {
       "level": 89,
-      "rank": 192914,
+      "rank": 196089,
       "xp": 5196110,
     },
     "strength": {
       "level": 99,
-      "rank": 71141,
-      "xp": 30852240,
+      "rank": 75015,
+      "xp": 30852600,
     },
     "thieving": {
       "level": 92,
-      "rank": 201865,
-      "xp": 6660699,
+      "rank": 205777,
+      "xp": 6660719,
     },
     "woodcutting": {
       "level": 99,
-      "rank": 109581,
-      "xp": 13235727,
+      "rank": 111828,
+      "xp": 13236327,
     },
   },
 }

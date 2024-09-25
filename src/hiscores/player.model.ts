@@ -69,6 +69,7 @@ export interface Minigame {
 export interface Bosses {
     abyssalSire: Boss;
     alchemicalHydra: Boss;
+    amoxliatl: Boss;
     araxxor: Boss;
     artio: Boss;
     barrowsChests: Boss;
@@ -111,6 +112,7 @@ export interface Bosses {
     tempoross: Boss;
     gauntlet: Boss;
     corruptedGauntlet: Boss;
+    hueycoatl: Boss;
     leviathan: Boss;
     whisperer: Boss;
     theatreOfBlood: Boss;
