@@ -96,6 +96,7 @@ export const BOSS_NAMES = {
     'The Corrupted Gauntlet': 'corruptedGauntlet',
     'The Hueycoatl': 'hueycoatl',
     'The Leviathan': 'leviathan',
+    'The Royal Titans': 'royalTitans',
     'The Whisperer': 'whisperer',
     'Theatre of Blood': 'theatreOfBlood',
     'Theatre of Blood: Hard Mode': 'theatreOfBloodHardMode',
