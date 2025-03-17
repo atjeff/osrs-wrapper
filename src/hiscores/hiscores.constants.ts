@@ -44,6 +44,7 @@ export const MINIGAME_NAMES = {
     'Soul Wars Zeal': 'soulWarsZeal',
     'Rifts closed': 'riftsClosed',
     'Colosseum Glory': 'colosseumGlory',
+    'Collections Logged': 'collectionsLogged'
 };
 
 export const BOSS_NAMES = {

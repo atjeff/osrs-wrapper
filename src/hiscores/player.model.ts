@@ -59,6 +59,7 @@ export interface Minigames {
     pvpArena: Minigame;
     soulWarsZeal: Minigame;
     riftsClosed: Minigame;
+    collectionsLogged: Minigame;
 }
 
 export interface Minigame {
