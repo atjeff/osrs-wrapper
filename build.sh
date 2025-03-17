@@ -11,18 +11,15 @@ then
 fi
 
 echo "Running tests"
-npm run lint && npm run test
+bun run typecheck && bun run lint && bun run test
 
 echo "Cleaning up dist"
 rm -rf dist/
 mkdir dist/
 
 echo "Compiling TypeScript"
-npm run build
+bun run build
 
 echo "Copying meta files"
 cp package.json dist/
 cp README.md dist/
-
-echo "Remove ts incremental build file"
-rm dist/tsconfig.tsbuildinfo

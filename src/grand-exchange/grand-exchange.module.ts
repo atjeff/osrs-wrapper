@@ -1,23 +1,24 @@
-import { request } from 'gaxios';
-import { ExchangeGraph, Item, ItemDetailResponse } from './item.model';
+import { ExchangeGraph, Item, ItemDetailResponse } from './item.model'
 
 /**
  * Gets Grand Exchange items for specified Item ID.
- *
  * @export
  * @param {number} itemId
  * @returns {Promise<Item>}
  */
 export async function getExchangeStats(itemId: number): Promise<Item> {
-    const {
-        data: { item },
-    } = await request<ItemDetailResponse>({
-        method: 'GET',
-        url: 'http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json',
-        params: { item: itemId },
-    });
+  const response = await fetch(
+    `http://services.runescape.com/m=itemdb_oldschool/api/catalogue/detail.json?item=${itemId}`
+  )
 
-    return item;
+  if (!response.ok) {
+    console.error(`Failed to fetch exchange stats for ${itemId}`, await response.text())
+    throw new Error(`Failed to fetch exchange stats for ${itemId}`)
+  }
+
+  const data = (await response.json()) as ItemDetailResponse
+
+  return data.item
 }
 
 /**
@@ -28,10 +29,16 @@ export async function getExchangeStats(itemId: number): Promise<Item> {
  * @returns {Promise<ExchangeGraph>}
  */
 export async function getExchangeTrendGraph(itemId: number): Promise<ExchangeGraph> {
-    const { data } = await request<ExchangeGraph>({
-        method: 'GET',
-        url: `http://services.runescape.com/m=itemdb_oldschool/api/graph/${itemId}.json`,
-    });
+  const response = await fetch(
+    `http://services.runescape.com/m=itemdb_oldschool/api/graph/${itemId}.json`
+  )
 
-    return data;
+  if (!response.ok) {
+    console.error(`Failed to fetch exchange trend graph for ${itemId}`, await response.text())
+    throw new Error(`Failed to fetch exchange trend graph for ${itemId}`)
+  }
+
+  const data = (await response.json()) as ExchangeGraph
+
+  return data
 }

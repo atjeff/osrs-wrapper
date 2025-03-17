@@ -1,7 +1,13 @@
-import { request } from 'gaxios';
-import { HiscoreTypes } from './hiscore-types.enum';
-import { BOSS_NAMES, MINIGAME_NAMES, SKILL_NAMES } from './hiscores.constants';
-import { Bosses, HiscoreResponse, Minigames, Player, Skills } from './player.model';
+import { HiscoreTypes } from './hiscore-types.enum'
+import {
+  BOSS_NAMES,
+  BossName,
+  MINIGAME_NAMES,
+  MinigameName,
+  SKILL_NAMES,
+  SkillName,
+} from './hiscores.constants'
+import { HiscoreResponse, Player } from './player.model'
 
 /**
  * Fetches player hiscores for specified game type. Includes Skills, Minigames, and Boss kill counts.
@@ -11,31 +17,55 @@ import { Bosses, HiscoreResponse, Minigames, Player, Skills } from './player.mod
  * @param {HiscoreTypes} [type=HiscoreTypes.normal]
  * @returns {Promise<Player>}
  */
-export async function getHiscores(username: string, type: HiscoreTypes = HiscoreTypes.normal): Promise<Player> {
-    const { data } = await request<HiscoreResponse>({
-        method: 'GET',
-        url: `http://services.runescape.com/m=${type}/index_lite.json`,
-        params: { player: encodeURIComponent(username) },
-    });
+export async function getHiscores(
+  username: string,
+  type: HiscoreTypes = HiscoreTypes.normal
+): Promise<Player> {
+  const response = await fetch(
+    `http://services.runescape.com/m=${type}/index_lite.json?player=${encodeURIComponent(username)}`
+  )
 
-    const skills = {} as Skills;
-    for (const skill of data.skills) {
-        const { rank, level, xp, name } = skill;
-        const skillName = SKILL_NAMES[skill.name];
-        skills[skillName] = { rank, level, xp };
+  if (!response.ok) {
+    console.error(`Failed to fetch hiscores for ${username}`, await response.text())
+    throw new Error(`Failed to fetch hiscores for ${username}`)
+  }
+
+  const data = (await response.json()) as HiscoreResponse
+
+  const player = {
+    skills: {},
+    minigames: {},
+    bosses: {},
+  } as Player
+
+  for (const skill of data.skills) {
+    const { rank, level, xp, name } = skill
+
+    const skillName = SKILL_NAMES[name as keyof typeof SKILL_NAMES] as SkillName
+    player.skills[skillName] = { rank, level, xp }
+  }
+
+  for (const activity of data.activities) {
+    const { rank, score, name } = activity
+
+    if (isMinigameName(name)) {
+      const minigameName = MINIGAME_NAMES[name] as MinigameName
+      player.minigames[minigameName] = { rank, score }
     }
 
-    const minigames = {} as Minigames;
-    const bosses = {} as Bosses;
-    for (const activity of data.activities) {
-        const { rank, score, name } = activity;
-
-        if (!!MINIGAME_NAMES[name]) {
-            minigames[MINIGAME_NAMES[name]] = { rank, score };
-        } else if (!!BOSS_NAMES[name]) {
-            bosses[BOSS_NAMES[name]] = { rank, kills: score };
-        }
+    if (isBossName(name)) {
+      const bossName = BOSS_NAMES[name] as BossName
+      player.bosses[bossName] = { rank, kills: score }
     }
+  }
 
-    return { skills, minigames, bosses };
+  return player
+}
+
+function isMinigameName(name: string): name is keyof typeof MINIGAME_NAMES {
+  return name in MINIGAME_NAMES
+}
+
+function isBossName(name: string): name is keyof typeof BOSS_NAMES {
+  return name in BOSS_NAMES
 }

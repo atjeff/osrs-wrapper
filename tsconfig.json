@@ -1,26 +1,8 @@
 {
-    "compilerOptions": {
-        /* Basic Options */
-        "target": "es5",
-        "module": "commonjs",
-        "outDir": "./dist",
-        "lib": ["esnext"],
-        "declaration": true,
-        "allowJs": false,
-        "noEmitOnError": true,
-        "newLine": "lf",
-
-        /* Build Options */
-        "incremental": true,
-
-        /* Module Resolution Options */
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "esModuleInterop": true,
-        "resolveJsonModule": true,
-        "moduleResolution": "node",
-        "forceConsistentCasingInFileNames": true
-    },
-    "include": ["./src/**/*.ts"],
-    "exclude": ["node_modules", "**/*.spec.ts", "**/*.mock.ts"]
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "types": ["bun-types"]
+  },
+  "include": ["src/index.ts"]
 }
