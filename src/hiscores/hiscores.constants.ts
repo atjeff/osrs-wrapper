@@ -113,6 +113,7 @@ export const BOSS_NAMES = {
   "Vet'ion": 'vetion',
   Vorkath: 'vorkath',
   Wintertodt: 'wintertodt',
+  Yama: 'yama',
   Zalcano: 'zalcano',
   Zulrah: 'zulrah',
 } as const
