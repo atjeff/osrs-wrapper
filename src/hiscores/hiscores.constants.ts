@@ -71,6 +71,7 @@ export const BOSS_NAMES = {
   'Dagannoth Rex': 'dagannothRex',
   'Dagannoth Supreme': 'dagannothSupreme',
   'Deranged Archaeologist': 'derangedArchaeologist',
+  'Doom of Mokhaiotl': 'doomOfMokhaiotl',
   'Duke Sucellus': 'dukeSucellus',
   'General Graardor': 'generalGraardor',
   'Giant Mole': 'giantMole',
