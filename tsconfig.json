@@ -2,6 +2,7 @@
   "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
+    "declaration": true,
     "types": ["bun-types"]
   },
   "include": ["src/index.ts"]
