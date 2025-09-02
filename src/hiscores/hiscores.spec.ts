@@ -407,6 +407,10 @@ describe('Hiscores', () => {
             "kills": -1,
             "rank": -1,
           },
+          "kreearra": {
+            "kills": -1,
+            "rank": -1,
+          },
           "krilTsutsaroth": {
             "kills": -1,
             "rank": -1,
@@ -678,6 +682,10 @@ describe('Hiscores', () => {
               "rank": -1,
             },
             "kraken": {
+              "kills": -1,
+              "rank": -1,
+            },
+            "kreearra": {
               "kills": -1,
               "rank": -1,
             },
