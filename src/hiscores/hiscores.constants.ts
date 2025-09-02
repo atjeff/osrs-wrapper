@@ -80,7 +80,7 @@ export const BOSS_NAMES = {
   'Kalphite Queen': 'kalphiteQueen',
   'King Black Dragon': 'kingBlackDragon',
   Kraken: 'kraken',
-  Kreearra: 'kreearra',
+  "Kree'Arra": 'kreearra',
   "K'ril Tsutsaroth": 'krilTsutsaroth',
   'Lunar Chests': 'lunarChests',
   Mimic: 'mimic',
