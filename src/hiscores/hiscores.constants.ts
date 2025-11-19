@@ -23,6 +23,7 @@ export const SKILL_NAMES = {
   Runecraft: 'runecrafting',
   Hunter: 'hunter',
   Construction: 'construction',
+  Sailing: 'sailing',
 } as const
 export type SkillName = (typeof SKILL_NAMES)[keyof typeof SKILL_NAMES]
 
@@ -92,6 +93,7 @@ export const BOSS_NAMES = {
   Sarachnis: 'sarachnis',
   Scorpia: 'scorpia',
   Scurrius: 'scurrius',
+  'Shellbane Gryphon': 'shellbaneGryphon',
   Skotizo: 'skotizo',
   'Sol Heredit': 'solHeredit',
   Spindel: 'spindel',
