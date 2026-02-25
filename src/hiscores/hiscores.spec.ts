@@ -181,11 +181,6 @@ describe('Hiscores', () => {
             "rank": 1797478,
             "xp": 154853,
           },
-          "undefined": {
-            "level": 1,
-            "rank": -1,
-            "xp": 0,
-          },
           "woodcutting": {
             "level": 1,
             "rank": -1,
@@ -1046,11 +1041,6 @@ describe('Hiscores', () => {
               "level": 54,
               "rank": 1797478,
               "xp": 154853,
-            },
-            "undefined": {
-              "level": 1,
-              "rank": -1,
-              "xp": 0,
             },
             "woodcutting": {
               "level": 1,
