@@ -156,6 +156,11 @@ describe('Hiscores', () => {
             "rank": -1,
             "xp": 21863,
           },
+          "sailing": {
+            "level": 1,
+            "rank": -1,
+            "xp": 0,
+          },
           "slayer": {
             "level": 1,
             "rank": -1,
@@ -472,6 +477,10 @@ describe('Hiscores', () => {
             "kills": -1,
             "rank": -1,
           },
+          "shellbaneGryphon": {
+            "kills": -1,
+            "rank": -1,
+          },
           "skotizo": {
             "kills": -1,
             "rank": -1,
@@ -754,6 +763,10 @@ describe('Hiscores', () => {
               "kills": -1,
               "rank": -1,
             },
+            "shellbaneGryphon": {
+              "kills": -1,
+              "rank": -1,
+            },
             "skotizo": {
               "kills": -1,
               "rank": -1,
@@ -1008,6 +1021,11 @@ describe('Hiscores', () => {
               "level": 34,
               "rank": -1,
               "xp": 21863,
+            },
+            "sailing": {
+              "level": 1,
+              "rank": -1,
+              "xp": 0,
             },
             "slayer": {
               "level": 1,
