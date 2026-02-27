@@ -78,12 +78,12 @@ describe('Hiscores', () => {
           },
           "cooking": {
             "level": 67,
-            "rank": 1929171,
+            "rank": 1991375,
             "xp": 598535,
           },
           "crafting": {
             "level": 61,
-            "rank": 1899742,
+            "rank": 1966087,
             "xp": 302454,
           },
           "defence": {
@@ -118,7 +118,7 @@ describe('Hiscores', () => {
           },
           "hitpoints": {
             "level": 95,
-            "rank": 855201,
+            "rank": 895580,
             "xp": 9180591,
           },
           "hunter": {
@@ -128,7 +128,7 @@ describe('Hiscores', () => {
           },
           "magic": {
             "level": 94,
-            "rank": 815284,
+            "rank": 850983,
             "xp": 7998100,
           },
           "mining": {
@@ -138,7 +138,7 @@ describe('Hiscores', () => {
           },
           "overall": {
             "level": 1228,
-            "rank": 1952851,
+            "rank": -1,
             "xp": 35239354,
           },
           "prayer": {
@@ -148,12 +148,12 @@ describe('Hiscores', () => {
           },
           "ranged": {
             "level": 90,
-            "rank": 1027105,
+            "rank": 1067251,
             "xp": 5440060,
           },
           "runecrafting": {
             "level": 34,
-            "rank": 1934171,
+            "rank": -1,
             "xp": 21863,
           },
           "sailing": {
@@ -168,17 +168,17 @@ describe('Hiscores', () => {
           },
           "smithing": {
             "level": 67,
-            "rank": 1393325,
+            "rank": 1452755,
             "xp": 557874,
           },
           "strength": {
             "level": 96,
-            "rank": 827553,
+            "rank": 868700,
             "xp": 9736256,
           },
           "thieving": {
             "level": 54,
-            "rank": 1727401,
+            "rank": 1797478,
             "xp": 154853,
           },
           "woodcutting": {
@@ -256,11 +256,11 @@ describe('Hiscores', () => {
             "score": -1,
           },
           "lms": {
-            "rank": 143844,
+            "rank": 146633,
             "score": 712,
           },
           "pvpArena": {
-            "rank": 1598,
+            "rank": 1820,
             "score": 3367,
           },
           "riftsClosed": {
@@ -302,6 +302,10 @@ describe('Hiscores', () => {
           },
           "barrowsChests": {
             "kills": -1,
+            "rank": -1,
+          },
+          "brutus": {
+            "kills": 0,
             "rank": -1,
           },
           "bryophyta": {
@@ -584,6 +588,10 @@ describe('Hiscores', () => {
             },
             "barrowsChests": {
               "kills": -1,
+              "rank": -1,
+            },
+            "brutus": {
+              "kills": 0,
               "rank": -1,
             },
             "bryophyta": {
@@ -897,11 +905,11 @@ describe('Hiscores', () => {
               "score": -1,
             },
             "lms": {
-              "rank": 143844,
+              "rank": 146633,
               "score": 712,
             },
             "pvpArena": {
-              "rank": 1598,
+              "rank": 1820,
               "score": 3367,
             },
             "riftsClosed": {
@@ -931,12 +939,12 @@ describe('Hiscores', () => {
             },
             "cooking": {
               "level": 67,
-              "rank": 1929171,
+              "rank": 1991375,
               "xp": 598535,
             },
             "crafting": {
               "level": 61,
-              "rank": 1899742,
+              "rank": 1966087,
               "xp": 302454,
             },
             "defence": {
@@ -971,7 +979,7 @@ describe('Hiscores', () => {
             },
             "hitpoints": {
               "level": 95,
-              "rank": 855201,
+              "rank": 895580,
               "xp": 9180591,
             },
             "hunter": {
@@ -981,7 +989,7 @@ describe('Hiscores', () => {
             },
             "magic": {
               "level": 94,
-              "rank": 815284,
+              "rank": 850983,
               "xp": 7998100,
             },
             "mining": {
@@ -991,7 +999,7 @@ describe('Hiscores', () => {
             },
             "overall": {
               "level": 1228,
-              "rank": 1952851,
+              "rank": -1,
               "xp": 35239354,
             },
             "prayer": {
@@ -1001,12 +1009,12 @@ describe('Hiscores', () => {
             },
             "ranged": {
               "level": 90,
-              "rank": 1027105,
+              "rank": 1067251,
               "xp": 5440060,
             },
             "runecrafting": {
               "level": 34,
-              "rank": 1934171,
+              "rank": -1,
               "xp": 21863,
             },
             "sailing": {
@@ -1021,17 +1029,17 @@ describe('Hiscores', () => {
             },
             "smithing": {
               "level": 67,
-              "rank": 1393325,
+              "rank": 1452755,
               "xp": 557874,
             },
             "strength": {
               "level": 96,
-              "rank": 827553,
+              "rank": 868700,
               "xp": 9736256,
             },
             "thieving": {
               "level": 54,
-              "rank": 1727401,
+              "rank": 1797478,
               "xp": 154853,
             },
             "woodcutting": {

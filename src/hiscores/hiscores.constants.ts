@@ -57,6 +57,7 @@ export const BOSS_NAMES = {
   Araxxor: 'araxxor',
   Artio: 'artio',
   'Barrows Chests': 'barrowsChests',
+  Brutus: 'brutus',
   Bryophyta: 'bryophyta',
   Callisto: 'callisto',
   "Calvar'ion": 'calvarion',
