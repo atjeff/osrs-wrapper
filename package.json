@@ -1,6 +1,6 @@
 {
   "name": "osrs-wrapper",
-  "version": "2.3.4",
+  "version": "2.3.5",
   "description": "A simple wrapper around the Old School Runescape API",
   "main": "index.js",
   "keywords": [
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atjeff/Osrs-Wrapper"
+    "url": "git+https://github.com/atjeff/Osrs-Wrapper.git"
   },
   "scripts": {
     "dev": "tsc --watch",
