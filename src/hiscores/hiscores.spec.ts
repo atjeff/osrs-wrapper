@@ -118,7 +118,7 @@ describe('Hiscores', () => {
           },
           "hitpoints": {
             "level": 95,
-            "rank": 942103,
+            "rank": 970261,
             "xp": 9180591,
           },
           "hunter": {
@@ -128,7 +128,7 @@ describe('Hiscores', () => {
           },
           "magic": {
             "level": 94,
-            "rank": 884017,
+            "rank": 906924,
             "xp": 7998100,
           },
           "mining": {
@@ -148,7 +148,7 @@ describe('Hiscores', () => {
           },
           "ranged": {
             "level": 90,
-            "rank": 1111508,
+            "rank": 1138166,
             "xp": 5440060,
           },
           "runecrafting": {
@@ -168,17 +168,17 @@ describe('Hiscores', () => {
           },
           "smithing": {
             "level": 67,
-            "rank": 1514886,
+            "rank": 1552682,
             "xp": 557874,
           },
           "strength": {
             "level": 96,
-            "rank": 918418,
+            "rank": 948075,
             "xp": 9736256,
           },
           "thieving": {
             "level": 54,
-            "rank": 1864523,
+            "rank": 1908547,
             "xp": 154853,
           },
           "woodcutting": {
@@ -256,11 +256,11 @@ describe('Hiscores', () => {
             "score": -1,
           },
           "lms": {
-            "rank": 149284,
+            "rank": 150346,
             "score": 712,
           },
           "pvpArena": {
-            "rank": 2181,
+            "rank": 2328,
             "score": 3367,
           },
           "riftsClosed": {
@@ -378,6 +378,10 @@ describe('Hiscores', () => {
           },
           "dukeSucellus": {
             "kills": -1,
+            "rank": -1,
+          },
+          "fracturedArchive": {
+            "kills": 0,
             "rank": -1,
           },
           "gauntlet": {
@@ -674,6 +678,10 @@ describe('Hiscores', () => {
               "kills": -1,
               "rank": -1,
             },
+            "fracturedArchive": {
+              "kills": 0,
+              "rank": -1,
+            },
             "gauntlet": {
               "kills": -1,
               "rank": -1,
@@ -921,11 +929,11 @@ describe('Hiscores', () => {
               "score": -1,
             },
             "lms": {
-              "rank": 149284,
+              "rank": 150346,
               "score": 712,
             },
             "pvpArena": {
-              "rank": 2181,
+              "rank": 2328,
               "score": 3367,
             },
             "riftsClosed": {
@@ -995,7 +1003,7 @@ describe('Hiscores', () => {
             },
             "hitpoints": {
               "level": 95,
-              "rank": 942103,
+              "rank": 970261,
               "xp": 9180591,
             },
             "hunter": {
@@ -1005,7 +1013,7 @@ describe('Hiscores', () => {
             },
             "magic": {
               "level": 94,
-              "rank": 884017,
+              "rank": 906924,
               "xp": 7998100,
             },
             "mining": {
@@ -1025,7 +1033,7 @@ describe('Hiscores', () => {
             },
             "ranged": {
               "level": 90,
-              "rank": 1111508,
+              "rank": 1138166,
               "xp": 5440060,
             },
             "runecrafting": {
@@ -1045,17 +1053,17 @@ describe('Hiscores', () => {
             },
             "smithing": {
               "level": 67,
-              "rank": 1514886,
+              "rank": 1552682,
               "xp": 557874,
             },
             "strength": {
               "level": 96,
-              "rank": 918418,
+              "rank": 948075,
               "xp": 9736256,
             },
             "thieving": {
               "level": 54,
-              "rank": 1864523,
+              "rank": 1908547,
               "xp": 154853,
             },
             "woodcutting": {
