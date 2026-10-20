@@ -103,6 +103,7 @@ export const BOSS_NAMES = {
   Tempoross: 'tempoross',
   'The Gauntlet': 'gauntlet',
   'The Corrupted Gauntlet': 'corruptedGauntlet',
+  'The Fractured Archive': 'fracturedArchive',
   'The Hueycoatl': 'hueycoatl',
   'The Leviathan': 'leviathan',
   'The Royal Titans': 'royalTitans',
